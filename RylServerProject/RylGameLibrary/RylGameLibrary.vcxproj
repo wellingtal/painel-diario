@@ -1,0 +1,870 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_MY|Win32">
+      <Configuration>Debug_MY</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_MY|x64">
+      <Configuration>Debug_MY</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_NoGD|Win32">
+      <Configuration>Debug_NoGD</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug_NoGD|x64">
+      <Configuration>Debug_NoGD</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_MY|Win32">
+      <Configuration>Release_MY</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_MY|x64">
+      <Configuration>Release_MY</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_NoGD|Win32">
+      <Configuration>Release_NoGD</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_NoGD|x64">
+      <Configuration>Release_NoGD</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3D6DC807-F1DB-4F12-8755-4F15FC0B8824}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../Library/$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../Library/$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">../../../../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">../../../../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">../../Library/$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|x64'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|x64'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|Win32'">../../Library/$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|x64'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|x64'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">../../Library/$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_MY|x64'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_MY|x64'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">../../Library/$(Configuration)\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_MY|x64'">../../Library/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_MY|x64'">../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_MY|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_MY|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_MY|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_MY|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_MY|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_MY|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|x64'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|x64'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|x64'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IncludePath);C:\project\trunk\Client\Library\dxx8\include</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(IncludePath);C:\project\trunk\Client\Library\dxx8\include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\project\trunk\Library\dxx8\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\project\trunk\Library\dxx8\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IncludePath);E:\Ring Of War\ServerRelated\Latest\Client\dxx8\include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(IncludePath);..\..\Client\dxx8\include\</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Ring Of War\ServerRelated\Latest\Client\dxx8\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|x64'">..\..\Client\dxx8\lib\;$(LibraryPath)</LibraryPath>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ExecutablePath)</ExecutablePath>
+    <ReferencePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ReferencePath)</ReferencePath>
+    <SourcePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SourcePath)</SourcePath>
+    <ExcludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ExcludePath)</ExcludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../;./;../RylServerLibrary;../BaseLibrary;../MemoryManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <OpenMPSupport>
+      </OpenMPSupport>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)RylGameLibrary.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../;./;../RylServerLibrary;../BaseLibrary;../MemoryManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <OpenMPSupport>
+      </OpenMPSupport>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)RylGameLibrary.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../;./;../RylServerLibrary;../BaseLibrary;../MemoryManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;NO_GAMEGUARD;_WINDOWS;_LIB;_USE_32BIT_TIME_T;</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <OpenMPSupport>true</OpenMPSupport>
+      <AssemblerOutput>All</AssemblerOutput>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DisableSpecificWarnings>4996;4819;4482</DisableSpecificWarnings>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)RylGameLibrary.lib</OutputFile>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../;./;../RylServerLibrary;../BaseLibrary;../MemoryManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;NO_GAMEGUARD;_WINDOWS;_LIB;_USE_32BIT_TIME_T;</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <OpenMPSupport>true</OpenMPSupport>
+      <AssemblerOutput>All</AssemblerOutput>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)RylGameLibrary.lib</OutputFile>
+      <AdditionalDependencies>
+      </AdditionalDependencies>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../;./;../RylServerLibrary;../BaseLibrary;../MemoryManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)RylGameLibrary.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../;./;../RylServerLibrary;../BaseLibrary;../MemoryManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)RylGameLibrary.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../;./;../RylServerLibrary;../BaseLibrary;../MemoryManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)RylGameLibrary.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_NoGD|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../;./;../RylServerLibrary;../BaseLibrary;../MemoryManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)RylGameLibrary.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../;./;../RylServerLibrary;../BaseLibrary;../MemoryManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)RylGameLibrary.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>../;./;../RylServerLibrary;../BaseLibrary;../MemoryManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)RylGameLibrary.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../;./;../RylServerLibrary;../BaseLibrary;../MemoryManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)RylGameLibrary.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../;./;../RylServerLibrary;../BaseLibrary;../MemoryManager;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)RylGameLibrary.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Item\Item.cpp" />
+    <ClCompile Include="Item\ItemConstants.cpp" />
+    <ClCompile Include="Item\ItemDataParser.cpp" />
+    <ClCompile Include="Item\ItemFactory.cpp" />
+    <ClCompile Include="Item\ItemMgr.cpp" />
+    <ClCompile Include="Item\ItemSerialMgr.cpp" />
+    <ClCompile Include="Item\ItemServerFunc.cpp" />
+    <ClCompile Include="Item\ItemStructure.cpp" />
+    <ClCompile Include="Item\Container\DepositContainer.cpp" />
+    <ClCompile Include="Item\Container\EquipmentsContainer.cpp" />
+    <ClCompile Include="Item\Container\ExchangeContainer.cpp" />
+    <ClCompile Include="Item\Container\InventoryContainer.cpp" />
+    <ClCompile Include="Item\Container\ItemContainer.cpp" />
+    <ClCompile Include="Item\Container\StallContainer.cpp" />
+    <ClCompile Include="Item\Container\TempInvenContainer.cpp" />
+    <ClCompile Include="Item\RebalanceConvert\OldItemConstants.cpp" />
+    <ClCompile Include="Item\RebalanceConvert\OldItemDataParser.cpp" />
+    <ClCompile Include="Item\RebalanceConvert\OldItemMgr.cpp" />
+    <ClCompile Include="Item\RebalanceConvert\OldItemStructure.cpp" />
+    <ClCompile Include="Item\RebalanceConvert\RebalanceItem.cpp" />
+    <ClCompile Include="Creature\AggresiveCreature.cpp" />
+    <ClCompile Include="Creature\Creature.cpp" />
+    <ClCompile Include="Creature\CreatureManager.cpp" />
+    <ClCompile Include="Creature\CreatureStructure.cpp" />
+    <ClCompile Include="Creature\EnemyCheck.cpp" />
+    <ClCompile Include="Creature\Threat.cpp" />
+    <ClCompile Include="Creature\Character\Character.cpp" />
+    <ClCompile Include="Creature\Character\CharacterClass.cpp" />
+    <ClCompile Include="Creature\Character\CharacterCommunity.cpp" />
+    <ClCompile Include="Creature\Character\CharacterControl.cpp" />
+    <ClCompile Include="Creature\Character\CharacterCreate.cpp" />
+    <ClCompile Include="Creature\Character\CharacterDataUpdate.cpp" />
+    <ClCompile Include="Creature\Character\CharacterFight.cpp" />
+    <ClCompile Include="Creature\Character\CharacterInventoryItem.cpp" />
+    <ClCompile Include="Creature\Character\CharacterItem.cpp" />
+    <ClCompile Include="Creature\Character\CharacterLoginOut.cpp" />
+    <ClCompile Include="Creature\Character\CharacterQuest.cpp" />
+    <ClCompile Include="Creature\Character\CharacterQuickSlot.cpp" />
+    <ClCompile Include="Creature\Character\CharacterSkill.cpp" />
+    <ClCompile Include="Creature\Character\CharacterStatus.cpp" />
+    <ClCompile Include="Creature\Character\CharacterStructure.cpp" />
+    <ClCompile Include="Creature\Character\CharacterTradeItem.cpp" />
+    <ClCompile Include="Creature\Character\CharRespawnMgr.cpp" />
+    <ClCompile Include="Creature\Character\TempCharacter.cpp" />
+    <ClCompile Include="Creature\Character\SphereTree\CharSphereTree.cpp" />
+    <ClCompile Include="Creature\Monster\AwardTable.cpp" />
+    <ClCompile Include="Creature\Monster\Monster.cpp" />
+    <ClCompile Include="Creature\Monster\MonsterBehavior.cpp" />
+    <ClCompile Include="Creature\Monster\MonsterMgr.cpp" />
+    <ClCompile Include="Creature\Monster\MonsterShout.cpp" />
+    <ClCompile Include="Creature\Monster\MonsterStructure.cpp" />
+    <ClCompile Include="Creature\Monster\PatternMonster.cpp" />
+    <ClCompile Include="Creature\Monster\VirtualMonsterMgr.cpp" />
+    <ClCompile Include="Creature\Monster\Fsm\FSM.cpp" />
+    <ClCompile Include="Creature\Monster\Fsm\FSMState.cpp" />
+    <ClCompile Include="Creature\Npc\NPC.cpp" />
+    <ClCompile Include="Creature\Siege\BroadCastSiegeObjectData.cpp" />
+    <ClCompile Include="Creature\Siege\SerializeSiegeObjectData.cpp" />
+    <ClCompile Include="Creature\Siege\Camp.cpp" />
+    <ClCompile Include="Creature\Siege\CampShop.cpp" />
+    <ClCompile Include="Creature\Siege\MiningCamp.cpp" />
+    <ClCompile Include="Creature\Siege\WorldWeapon.cpp" />
+    <ClCompile Include="Creature\Siege\CastleEmblem.cpp" />
+    <ClCompile Include="Creature\Siege\CastleGate.cpp" />
+    <ClCompile Include="Creature\Siege\CastleGuard.cpp" />
+    <ClCompile Include="Creature\Siege\CastleArms.cpp" />
+    <ClCompile Include="Creature\Siege\Airship.cpp" />
+    <ClCompile Include="Creature\Siege\SiegeArms.cpp" />
+    <ClCompile Include="Creature\Siege\SiegeObject.cpp" />
+    <ClCompile Include="Creature\Siege\SiegeObjectMgr.cpp" />
+    <ClCompile Include="Log\BugPlayLog.cpp" />
+    <ClCompile Include="Log\CharacterLog.cpp" />
+    <ClCompile Include="Log\GameLog.cpp" />
+    <ClCompile Include="Log\GuildLog.cpp" />
+    <ClCompile Include="Log\ItemLog.cpp" />
+    <ClCompile Include="Log\LogStruct.cpp" />
+    <ClCompile Include="Log\ParseLog.cpp" />
+    <ClCompile Include="Map\FieldMap\Cell.cpp" />
+    <ClCompile Include="Map\FieldMap\CellBroadcast.cpp" />
+    <ClCompile Include="Map\FieldMap\CellManager.cpp" />
+    <ClCompile Include="Map\FieldMap\MineralVeinMgr.cpp" />
+    <ClCompile Include="Map\FieldMap\virtualarea\VirtualArea.cpp" />
+    <ClCompile Include="Map\FieldMap\virtualarea\VirtualAreaMgr.cpp" />
+    <ClCompile Include="Map\FieldMap\virtualarea\VirtualAreaStructure.cpp" />
+    <ClCompile Include="Map\FieldMap\virtualarea\bgserver\BGServerMap.cpp" />
+    <ClCompile Include="Map\FieldMap\virtualarea\bgserver\BGServerMgr.cpp" />
+    <ClCompile Include="Map\FieldMap\virtualarea\duel\DuelMap.cpp" />
+    <ClCompile Include="Map\FieldMap\virtualarea\duel\DuelMgr.cpp" />
+    <ClCompile Include="Map\FieldMap\virtualarea\dungeon\Dungeon.cpp" />
+    <ClCompile Include="Map\FieldMap\virtualarea\dungeon\DungeonMgr.cpp" />
+    <ClCompile Include="Map\DuelMap\DuelCellManager.cpp" />
+    <ClCompile Include="Skill\SkillMgr.cpp" />
+    <ClCompile Include="Skill\SkillStructure.cpp" />
+    <ClCompile Include="Skill\SkillTable.cpp" />
+    <ClCompile Include="Skill\Spell\Affected.cpp" />
+    <ClCompile Include="Skill\Spell\Casting.cpp" />
+    <ClCompile Include="Skill\Spell\GlobalSpellMgr.cpp" />
+    <ClCompile Include="Skill\Spell\PartySpellMgr.cpp" />
+    <ClCompile Include="Skill\Spell\Spell.cpp" />
+    <ClCompile Include="Skill\Spell\SpellMgr.cpp" />
+    <ClCompile Include="Skill\Spell\SpellTable.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\CheckSpeedHack.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\GameClientDispatch.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\ParseCharAdmin.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\ParseCharAttack.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\ParseCharBGServer.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\ParseCharCastle.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\ParseCharChat.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\ParseCharCommunity.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\ParseCharEtc.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\ParseCharItem.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\ParseCharLevelUp.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\ParseCharLoginOut.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\ParseCharQuest.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\ParseCharSkill.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\ParseCharUpgradeItem.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\SendCharAdmin.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\SendCharAttack.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\SendCharBGServer.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\SendCharCastle.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\SendCharCommunity.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\SendCharEtc.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\SendCharItem.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\SendCharLevelUp.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\SendCharLoginOut.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\SendCharQuest.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\SendCharSkill.cpp" />
+    <ClCompile Include="Network\Dispatch\GameClient\SendCharUpgradeItem.cpp" />
+    <ClCompile Include="Network\Dispatch\DBAgent\CastlePacketParse.cpp" />
+    <ClCompile Include="Network\Dispatch\DBAgent\DBAgentDispatch.cpp" />
+    <ClCompile Include="Network\Dispatch\DBAgent\DBAgentPacketParse.cpp" />
+    <ClCompile Include="Network\Dispatch\DBAgent\DBAgentRequest.cpp" />
+    <ClCompile Include="Network\Dispatch\DBAgent\GuildPacketParse.cpp" />
+    <ClCompile Include="Network\Dispatch\DBAgent\RegularAgentDispatch.cpp" />
+    <ClCompile Include="Network\Dispatch\GameLog\LogDispatch.cpp" />
+    <ClCompile Include="Network\Dispatch\GameLog\SendLogPacket.cpp" />
+    <ClCompile Include="Network\Dispatch\Chat\ChatDispatch.cpp" />
+    <ClCompile Include="Network\ClientSocket\ClientSocket.cpp" />
+    <ClCompile Include="Network\ClientSocket\LoginSocket.cpp" />
+    <ClCompile Include="Network\ClientSocket\UDPList.cpp" />
+    <ClCompile Include="Network\ClientSocket\Parse\ParseAuthServer.cpp" />
+    <ClCompile Include="Network\ClientSocket\Parse\ParseBGServer.cpp" />
+    <ClCompile Include="Network\ClientSocket\Parse\ParseCastle.cpp" />
+    <ClCompile Include="Network\ClientSocket\Parse\ParseCharInfo.cpp" />
+    <ClCompile Include="Network\ClientSocket\Parse\ParseCommunity.cpp" />
+    <ClCompile Include="Network\ClientSocket\Parse\ParseEtc.cpp" />
+    <ClCompile Include="Network\ClientSocket\Parse\ParseFight.cpp" />
+    <ClCompile Include="Network\ClientSocket\Parse\ParseItem.cpp" />
+    <ClCompile Include="Network\ClientSocket\Parse\ParseLoginout.cpp" />
+    <ClCompile Include="Network\ClientSocket\Parse\ParseMove.cpp" />
+    <ClCompile Include="Network\ClientSocket\Parse\ParseQuest.cpp" />
+    <ClCompile Include="Network\ClientSocket\Parse\ParseSkill.cpp" />
+    <ClCompile Include="Network\ClientSocket\Send\SendAttack.cpp" />
+    <ClCompile Include="Network\ClientSocket\Send\SendAuthServer.cpp" />
+    <ClCompile Include="Network\ClientSocket\Send\SendBGServer.cpp" />
+    <ClCompile Include="Network\ClientSocket\Send\SendCastle.cpp" />
+    <ClCompile Include="Network\ClientSocket\Send\SendCommunity.cpp" />
+    <ClCompile Include="Network\ClientSocket\Send\SendEtc.cpp" />
+    <ClCompile Include="Network\ClientSocket\Send\SendItem.cpp" />
+    <ClCompile Include="Network\ClientSocket\Send\SendLoginout.cpp" />
+    <ClCompile Include="Network\ClientSocket\Send\SendMove.cpp" />
+    <ClCompile Include="Network\ClientSocket\Send\SendPacket.cpp" />
+    <ClCompile Include="Network\ClientSocket\Send\SendQuest.cpp" />
+    <ClCompile Include="Network\ClientSocket\Send\SendSkill.cpp" />
+    <ClCompile Include="Network\Packet\ChatPacket.cpp" />
+    <ClCompile Include="Network\Packet\PacketStruct\CharMovePacket.cpp" />
+    <ClCompile Include="Network\Broadcast\BroadcastCharacterData.cpp" />
+    <ClCompile Include="Network\Broadcast\ChatCharData.cpp" />
+    <ClCompile Include="Network\Broadcast\ClientCellMgr.cpp" />
+    <ClCompile Include="Network\Broadcast\SerializeCharacterData.cpp" />
+    <ClCompile Include="quest\QuestMgr.cpp" />
+    <ClCompile Include="quest\QuestStruct.cpp" />
+    <ClCompile Include="gameevent\GameEventMgr.cpp" />
+    <ClCompile Include="gameevent\lotteryevent\LotteryEvent.cpp" />
+    <ClCompile Include="ranking\RankingMgr.cpp" />
+    <ClCompile Include="Castle\Castle.cpp" />
+    <ClCompile Include="Castle\CastleBlessMgr.cpp" />
+    <ClCompile Include="Castle\CastleDBComponent.cpp" />
+    <ClCompile Include="Castle\CastleMgr.cpp" />
+    <ClCompile Include="Community\party\Party.cpp" />
+    <ClCompile Include="Community\party\PartyMgr.cpp" />
+    <ClCompile Include="Community\guild\Guild.cpp" />
+    <ClCompile Include="Community\guild\GuildMgr.cpp" />
+    <ClCompile Include="GameTime\GameTimeDBComponent.cpp" />
+    <ClCompile Include="GameTime\GameTimeMgr.cpp" />
+    <ClCompile Include="Utility\DelimitedFile.cpp" />
+    <ClCompile Include="Utility\TokenlizedFile.cpp" />
+    <ClCompile Include="Utility\TypeArray.cpp" />
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Item\Item.h" />
+    <ClInclude Include="Item\ItemConstants.h" />
+    <ClInclude Include="Item\ItemDataParser.h" />
+    <ClInclude Include="Item\ItemFactory.h" />
+    <ClInclude Include="Item\ItemMgr.h" />
+    <ClInclude Include="Item\ItemSerialMgr.h" />
+    <ClInclude Include="Item\ItemStructure.h" />
+    <ClInclude Include="Item\Container\ContainerConstant.h" />
+    <ClInclude Include="Item\Container\DepositContainer.h" />
+    <ClInclude Include="Item\Container\EquipmentsContainer.h" />
+    <ClInclude Include="Item\Container\ExchangeContainer.h" />
+    <ClInclude Include="Item\Container\InventoryContainer.h" />
+    <ClInclude Include="Item\Container\ItemContainer.h" />
+    <ClInclude Include="Item\Container\StallContainer.h" />
+    <ClInclude Include="Item\Container\TempInvenContainer.h" />
+    <ClInclude Include="Item\RebalanceConvert\ContainerChecker.h" />
+    <ClInclude Include="Item\RebalanceConvert\OldItemConstants.h" />
+    <ClInclude Include="Item\RebalanceConvert\OldItemDataParser.h" />
+    <ClInclude Include="Item\RebalanceConvert\OldItemMgr.h" />
+    <ClInclude Include="Item\RebalanceConvert\OldItemStructure.h" />
+    <ClInclude Include="Item\RebalanceConvert\RebalanceItem.h" />
+    <ClInclude Include="Creature\AggresiveCreature.h" />
+    <ClInclude Include="Creature\Creature.h" />
+    <ClInclude Include="Creature\CreatureManager.h" />
+    <ClInclude Include="Creature\CreatureStructure.h" />
+    <ClInclude Include="Creature\EnemyCheck.h" />
+    <ClInclude Include="Creature\Threat.h" />
+    <ClInclude Include="Creature\Character\Character.h" />
+    <ClInclude Include="Creature\Character\CharacterClass.h" />
+    <ClInclude Include="Creature\Character\CharacterCreate.h" />
+    <ClInclude Include="Creature\Character\CharacterStructure.h" />
+    <ClInclude Include="Creature\Character\CharRespawnMgr.h" />
+    <ClInclude Include="Creature\Character\ExpTable.h" />
+    <ClInclude Include="Creature\Character\TempCharacter.h" />
+    <ClInclude Include="Creature\Character\SphereTree\CharSphereTree.h" />
+    <ClInclude Include="Creature\Character\SphereTree\CharSphereTreeConstants.h" />
+    <ClInclude Include="Creature\Character\SphereTree\Sphere.h" />
+    <ClInclude Include="Creature\Monster\AwardTable.h" />
+    <ClInclude Include="Creature\Monster\Monster.h" />
+    <ClInclude Include="Creature\Monster\MonsterMgr.h" />
+    <ClInclude Include="Creature\Monster\MonsterShout.h" />
+    <ClInclude Include="Creature\Monster\MonsterStructure.h" />
+    <ClInclude Include="Creature\Monster\PatternMonster.h" />
+    <ClInclude Include="Creature\Monster\VirtualMonsterMgr.h" />
+    <ClInclude Include="Creature\Monster\Fsm\FSM.h" />
+    <ClInclude Include="Creature\Monster\Fsm\FSMState.h" />
+    <ClInclude Include="Creature\Npc\NPC.h" />
+    <ClInclude Include="Creature\Siege\BroadCastSiegeObjectData.h" />
+    <ClInclude Include="Creature\Siege\SerializeSiegeObjectData.h" />
+    <ClInclude Include="Creature\Siege\Camp.h" />
+    <ClInclude Include="Creature\Siege\CampShop.h" />
+    <ClInclude Include="Creature\Siege\MiningCamp.h" />
+    <ClInclude Include="Creature\Siege\WorldWeapon.h" />
+    <ClInclude Include="Creature\Siege\CastleEmblem.h" />
+    <ClInclude Include="Creature\Siege\CastleGate.h" />
+    <ClInclude Include="Creature\Siege\CastleGuard.h" />
+    <ClInclude Include="Creature\Siege\CastleArms.h" />
+    <ClInclude Include="Creature\Siege\Airship.h" />
+    <ClInclude Include="Creature\Siege\SiegeArms.h" />
+    <ClInclude Include="Creature\Siege\SiegeConstants.h" />
+    <ClInclude Include="Creature\Siege\SiegeObject.h" />
+    <ClInclude Include="Creature\Siege\SiegeObjectMgr.h" />
+    <ClInclude Include="Log\BugPlayLog.h" />
+    <ClInclude Include="Log\CharacterLog.h" />
+    <ClInclude Include="Log\GameLog.h" />
+    <ClInclude Include="Log\GuildLog.h" />
+    <ClInclude Include="Log\ItemLog.h" />
+    <ClInclude Include="Log\LogCommands.h" />
+    <ClInclude Include="Log\LogStruct.h" />
+    <ClInclude Include="Log\ParseLog.h" />
+    <ClInclude Include="Map\FieldMap\Cell.h" />
+    <ClInclude Include="Map\FieldMap\CellManager.h" />
+    <ClInclude Include="Map\FieldMap\MineralVeinMgr.h" />
+    <ClInclude Include="Map\FieldMap\virtualarea\VirtualArea.h" />
+    <ClInclude Include="Map\FieldMap\virtualarea\VirtualAreaConstants.h" />
+    <ClInclude Include="Map\FieldMap\virtualarea\VirtualAreaMgr.h" />
+    <ClInclude Include="Map\FieldMap\virtualarea\VirtualAreaStructure.h" />
+    <ClInclude Include="Map\FieldMap\virtualarea\bgserver\BGServerMap.h" />
+    <ClInclude Include="Map\FieldMap\virtualarea\bgserver\BGServerMgr.h" />
+    <ClInclude Include="Map\FieldMap\virtualarea\duel\DuelMap.h" />
+    <ClInclude Include="Map\FieldMap\virtualarea\duel\DuelMgr.h" />
+    <ClInclude Include="Map\FieldMap\virtualarea\dungeon\Dungeon.h" />
+    <ClInclude Include="Map\FieldMap\virtualarea\dungeon\DungeonMgr.h" />
+    <ClInclude Include="Map\DuelMap\DuelCellManager.h" />
+    <ClInclude Include="Skill\SkillMgr.h" />
+    <ClInclude Include="Skill\SkillStructure.h" />
+    <ClInclude Include="Skill\SkillTable.h" />
+    <ClInclude Include="Skill\Spell\Affected.h" />
+    <ClInclude Include="Skill\Spell\Casting.h" />
+    <ClInclude Include="Skill\Spell\GlobalSpellMgr.h" />
+    <ClInclude Include="Skill\Spell\NullSpell.h" />
+    <ClInclude Include="Skill\Spell\PartySpellMgr.h" />
+    <ClInclude Include="Skill\Spell\Spell.h" />
+    <ClInclude Include="Skill\Spell\SpellKind.h" />
+    <ClInclude Include="Skill\Spell\SpellMgr.h" />
+    <ClInclude Include="Skill\Spell\SpellTable.h" />
+    <ClInclude Include="Skill\Spell\SpellUtil.h" />
+    <ClInclude Include="Network\Dispatch\ParseUtils.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\CheckSpeedHack.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\GameClientDispatch.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\PacketParse.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\ParseCharAdmin.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\ParseCharAttack.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\ParseCharBGServer.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\ParseCharCastle.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\ParseCharChat.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\ParseCharCommunity.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\ParseCharEtc.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\ParseCharItem.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\ParseCharLevelUp.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\ParseCharLoginOut.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\ParseCharQuest.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\ParseCharSkill.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\ParseCharUpgradeItem.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\SendCharAdmin.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\SendCharAttack.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\SendCharBGServer.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\SendCharCastle.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\SendCharCommunity.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\SendCharEtc.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\SendCharItem.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\SendCharLevelUp.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\SendCharLoginOut.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\SendCharQuest.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\SendCharSkill.h" />
+    <ClInclude Include="Network\Dispatch\GameClient\SendCharUpgradeItem.h" />
+    <ClInclude Include="Network\Dispatch\DBAgent\CastlePacketParse.h" />
+    <ClInclude Include="Network\Dispatch\DBAgent\DBAgentDispatch.h" />
+    <ClInclude Include="Network\Dispatch\DBAgent\DBAgentPacketParse.h" />
+    <ClInclude Include="Network\Dispatch\DBAgent\DBAgentRequest.h" />
+    <ClInclude Include="Network\Dispatch\DBAgent\GuildPacketParse.h" />
+    <ClInclude Include="Network\Dispatch\DBAgent\RegularAgentDispatch.h" />
+    <ClInclude Include="Network\Dispatch\GameLog\LogDispatch.h" />
+    <ClInclude Include="Network\Dispatch\GameLog\SendLogPacket.h" />
+    <ClInclude Include="Network\Dispatch\Chat\ChatDispatch.h" />
+    <ClInclude Include="Network\ClientSocket\ClientConstants.h" />
+    <ClInclude Include="Network\ClientSocket\ClientSocket.h" />
+    <ClInclude Include="Network\ClientSocket\LoginSocket.h" />
+    <ClInclude Include="Network\ClientSocket\UDPList.h" />
+    <ClInclude Include="Network\ClientSocket\Parse\ParseAuthServer.h" />
+    <ClInclude Include="Network\ClientSocket\Parse\ParseBGServer.h" />
+    <ClInclude Include="Network\ClientSocket\Parse\ParseCastle.h" />
+    <ClInclude Include="Network\ClientSocket\Parse\ParseCharInfo.h" />
+    <ClInclude Include="Network\ClientSocket\Parse\ParseCommunity.h" />
+    <ClInclude Include="Network\ClientSocket\Parse\ParseEtc.h" />
+    <ClInclude Include="Network\ClientSocket\Parse\ParseFight.h" />
+    <ClInclude Include="Network\ClientSocket\Parse\ParseItem.h" />
+    <ClInclude Include="Network\ClientSocket\Parse\ParseLoginout.h" />
+    <ClInclude Include="Network\ClientSocket\Parse\ParseMove.h" />
+    <ClInclude Include="Network\ClientSocket\Parse\ParseQuest.h" />
+    <ClInclude Include="Network\ClientSocket\Parse\ParseSkill.h" />
+    <ClInclude Include="Network\ClientSocket\Send\SendAttack.h" />
+    <ClInclude Include="Network\ClientSocket\Send\SendAuthServer.h" />
+    <ClInclude Include="Network\ClientSocket\Send\SendBGServer.h" />
+    <ClInclude Include="Network\ClientSocket\Send\SendCastle.h" />
+    <ClInclude Include="Network\ClientSocket\Send\SendCommunity.h" />
+    <ClInclude Include="Network\ClientSocket\Send\SendEtc.h" />
+    <ClInclude Include="Network\ClientSocket\Send\SendItem.h" />
+    <ClInclude Include="Network\ClientSocket\Send\SendLoginout.h" />
+    <ClInclude Include="Network\ClientSocket\Send\SendMove.h" />
+    <ClInclude Include="Network\ClientSocket\Send\SendPacket.h" />
+    <ClInclude Include="Network\ClientSocket\Send\SendQuest.h" />
+    <ClInclude Include="Network\ClientSocket\Send\SendSkill.h" />
+    <ClInclude Include="Network\Packet\ChatPacket.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\AddressPacket.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharAdminPacket.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharAttackPacket.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharAttackPacketStruct.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharBroadcastPacket.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharCommunityPacket.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharCommunityPacketStruct.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharConfigPacket.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharConfigPacketStruct.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharItemPacket.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharItemPacketStruct.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharLoginOutPacket.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharLoginOutPacketStruct.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharMovePacket.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharQuestPacket.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharStatusPacket.h" />
+    <ClInclude Include="Network\Packet\PacketStruct\CharStatusPacketStruct.h" />
+    <ClInclude Include="Network\Broadcast\BroadcastCharacterData.h" />
+    <ClInclude Include="Network\Broadcast\ChatCharData.h" />
+    <ClInclude Include="Network\Broadcast\ClientCellMgr.h" />
+    <ClInclude Include="Network\Broadcast\SerializeCharacterData.h" />
+    <ClInclude Include="quest\QuestMgr.h" />
+    <ClInclude Include="quest\QuestStruct.h" />
+    <ClInclude Include="gameevent\GameEventMgr.h" />
+    <ClInclude Include="gameevent\lotteryevent\LotteryEvent.h" />
+    <ClInclude Include="ranking\RankingMgr.h" />
+    <ClInclude Include="Castle\Castle.h" />
+    <ClInclude Include="Castle\CastleBlessMgr.h" />
+    <ClInclude Include="Castle\CastleConstants.h" />
+    <ClInclude Include="Castle\CastleDBComponent.h" />
+    <ClInclude Include="Castle\CastleMgr.h" />
+    <ClInclude Include="Community\party\Party.h" />
+    <ClInclude Include="Community\party\PartyMgr.h" />
+    <ClInclude Include="Community\guild\Guild.h" />
+    <ClInclude Include="Community\guild\GuildConstants.h" />
+    <ClInclude Include="Community\guild\GuildMgr.h" />
+    <ClInclude Include="Community\guild\GuildStructure.h" />
+    <ClInclude Include="Community\guild\GuildUtil.h" />
+    <ClInclude Include="GameGuardLib\ggerror.h" />
+    <ClInclude Include="GameGuardLib\ggsrv.h" />
+    <ClInclude Include="GameGuardLib\NPGameLib.h" />
+    <ClInclude Include="GameTime\GameTimeConstants.h" />
+    <ClInclude Include="GameTime\GameTimeDBComponent.h" />
+    <ClInclude Include="GameTime\GameTimeMgr.h" />
+    <ClInclude Include="Utility\DelimitedFile.h" />
+    <ClInclude Include="Utility\TokenlizedFile.h" />
+    <ClInclude Include="Utility\TypeArray.h" />
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="GameGuardLib\ggsrvlib.lib" />
+    <Library Include="GameGuardLib\NPGameLib.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MemoryManager\MemoryManager.vcxproj">
+      <Project>{7b602b2e-c629-4311-b7f6-c9177660ada1}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <Private>true</Private>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\RylServerLibrary\RylServerLibrary.vcxproj">
+      <Project>{91662620-ceb4-4184-b1e5-7ea48a8e2f8d}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <Private>true</Private>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\ScriptEngine\ScriptEngine.vcxproj">
+      <Project>{8ee86398-fbbb-4568-98cf-4a890da9d636}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <Private>true</Private>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+    <ProjectReference Include="..\zlib\zlib.vcxproj">
+      <Project>{716d4c86-6d38-4f08-acae-109bf8bc92bd}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <Private>true</Private>
+      <CopyLocalSatelliteAssemblies>false</CopyLocalSatelliteAssemblies>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+      <UseLibraryDependencyInputs>false</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

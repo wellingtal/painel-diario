@@ -1,0 +1,81 @@
+
+------------------------------------------------------------------------
+	PID:0x00000fc8/ServerID:0x0c000102/ServerZone:12/ServerChannel:00/
+	GameServer PerformanceCheck. 2011-09-13 17:13:44:0344
+
+	-- Server Packet Statistics -- 
+	Log Start Time    : 2011year 09mon 13day 17hour 13min 43sec
+	Current Log Time  : 2011year 09mon 13day 17hour 13min 44sec
+	Log Duration      : 00hour 00min 01sec
+
+
+ Recv Packet
+ Total Data  :           0.0000Mb/          0.0000Kb/          0.0000Bytes/          0.0000Bytes/Sec
+ Total Count :           0.0000/          0.0000(Count/Sec)
+
+
+ Send Packet
+ Total Data  :           0.0000Mb/          0.0000Kb/          0.0000Bytes/          0.0000Bytes/Sec
+ Total Count :           0.0000/          0.0000(Count/Sec)
+
+
+ Check compression status - not actually sent
+ Total Data            :           0.0000Mb/          0.0000Kb/          0.0000Bytes
+ Total Data Compressed :           0.0000Mb/          0.0000Kb/          0.0000Bytes
+ Total Count           :           0.0000/Failed(          0.0000)
+
+
+
+------------------------------------------------------------------------
+	PID:0x000013f4/ServerID:0x0c000102/ServerZone:12/ServerChannel:00/
+	GameServer PerformanceCheck. 2011-09-13 17:13:56:0130
+
+	-- Server Packet Statistics -- 
+	Log Start Time    : 2011year 09mon 13day 17hour 13min 54sec
+	Current Log Time  : 2011year 09mon 13day 17hour 13min 56sec
+	Log Duration      : 00hour 00min 02sec
+
+
+ Recv Packet
+ Total Data  :           0.0000Mb/          0.0000Kb/          0.0000Bytes/          0.0000Bytes/Sec
+ Total Count :           0.0000/          0.0000(Count/Sec)
+
+
+ Send Packet
+ Total Data  :           0.0000Mb/          0.0000Kb/          0.0000Bytes/          0.0000Bytes/Sec
+ Total Count :           0.0000/          0.0000(Count/Sec)
+
+
+ Check compression status - not actually sent
+ Total Data            :           0.0000Mb/          0.0000Kb/          0.0000Bytes
+ Total Data Compressed :           0.0000Mb/          0.0000Kb/          0.0000Bytes
+ Total Count           :           0.0000/Failed(          0.0000)
+
+
+
+------------------------------------------------------------------------
+	PID:0x0000006c/ServerID:0x0c000102/ServerZone:12/ServerChannel:00/
+	GameServer PerformanceCheck. 2011-09-13 17:14:29:0683
+
+	-- Server Packet Statistics -- 
+	Log Start Time    : 2011year 09mon 13day 17hour 14min 28sec
+	Current Log Time  : 2011year 09mon 13day 17hour 14min 29sec
+	Log Duration      : 00hour 00min 01sec
+
+
+ Recv Packet
+ Total Data  :           0.0000Mb/          0.0000Kb/          0.0000Bytes/          0.0000Bytes/Sec
+ Total Count :           0.0000/          0.0000(Count/Sec)
+
+
+ Send Packet
+ Total Data  :           0.0000Mb/          0.0000Kb/          0.0000Bytes/          0.0000Bytes/Sec
+ Total Count :           0.0000/          0.0000(Count/Sec)
+
+
+ Check compression status - not actually sent
+ Total Data            :           0.0000Mb/          0.0000Kb/          0.0000Bytes
+ Total Data Compressed :           0.0000Mb/          0.0000Kb/          0.0000Bytes
+ Total Count           :           0.0000/Failed(          0.0000)
+
+

@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{42730c62-474e-463f-8f7a-4784e2ec4785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Dispatch">
+      <UniqueIdentifier>{ec1435f6-1d2f-4793-8fa6-5b1c877a5ce1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\SendPacket">
+      <UniqueIdentifier>{80c52c4c-2fc6-4648-9768-cd949e9c2d1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\ParsePacket">
+      <UniqueIdentifier>{24345a16-e073-4b30-b5aa-7085e710ebd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStorage">
+      <UniqueIdentifier>{6b13605b-2a14-40c5-9661-68b1943f0fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ranking">
+      <UniqueIdentifier>{e1a54b07-889f-4cec-b99b-5d53582334c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameEvent">
+      <UniqueIdentifier>{ae45f3b8-4242-495c-a4e9-31bcd590e1ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Community">
+      <UniqueIdentifier>{b14d4a3b-0e80-4fd8-a62c-e147f29bf536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Community\Party">
+      <UniqueIdentifier>{e30c8e2d-3f22-4d3e-b5eb-471eb8c9e859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Community\Guild">
+      <UniqueIdentifier>{80d3a893-3065-416a-bd2e-f3830c308dec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature">
+      <UniqueIdentifier>{34f7e146-88fe-490f-8274-da9d4d6b1229}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature\Siege">
+      <UniqueIdentifier>{8d6894fe-84b2-4085-8bfb-3877f8e2a287}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature\Siege\Base">
+      <UniqueIdentifier>{310f30c3-0d2c-4512-8d84-4f06bcbeb9db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature\Siege\AboutCamp">
+      <UniqueIdentifier>{86ad08e3-7b56-4eee-bce0-f399a2121df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature\Siege\AboutCastle">
+      <UniqueIdentifier>{9ed57a92-13aa-468d-a3e9-6eb8535921ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature\Siege\AboutSiege">
+      <UniqueIdentifier>{343c1d58-018c-4d77-a1a0-34e168d85ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Castle">
+      <UniqueIdentifier>{88f7d82f-0adf-41f1-a6d5-91d8e86a44b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{60d19e9f-6ef8-4176-be33-c453d6b60a35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\FieldMap">
+      <UniqueIdentifier>{bcd7c8d5-e4f6-4707-9f43-2efca74996ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameTime">
+      <UniqueIdentifier>{a8772a09-0423-44c8-910a-b5b5d4f1d361}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RylDBAgentServer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RylDBAgentServerCommands.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RylDBAgentServerMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="RylDBAgentServerWindow.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\AdminToolDispatch.cpp">
+      <Filter>Network\Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\AuthDispatch.cpp">
+      <Filter>Network\Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\ChatDispatch.cpp">
+      <Filter>Network\Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\GameDispatch.cpp">
+      <Filter>Network\Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\LoginDispatch.cpp">
+      <Filter>Network\Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\Part1DBAgentDispatch.cpp">
+      <Filter>Network\Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\UIDDispatch.cpp">
+      <Filter>Network\Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\SendPacket\SendAdminTool.cpp">
+      <Filter>Network\SendPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\SendPacket\SendCharManage.cpp">
+      <Filter>Network\SendPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\SendPacket\SendGuild.cpp">
+      <Filter>Network\SendPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\SendPacket\SendLoginout.cpp">
+      <Filter>Network\SendPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\SendPacket\SendMoveZone.cpp">
+      <Filter>Network\SendPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\SendPacket\SendParty.cpp">
+      <Filter>Network\SendPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\SendPacket\SendServerInfo.cpp">
+      <Filter>Network\SendPacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ParsePacket\ParseCastle.cpp">
+      <Filter>Network\ParsePacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ParsePacket\ParseCharManage.cpp">
+      <Filter>Network\ParsePacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ParsePacket\ParseCharUpdate.cpp">
+      <Filter>Network\ParsePacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ParsePacket\ParseGuild.cpp">
+      <Filter>Network\ParsePacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ParsePacket\ParseMoveZone.cpp">
+      <Filter>Network\ParsePacket</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ParsePacket\ParseParty.cpp">
+      <Filter>Network\ParsePacket</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStorage\AdminDataMgr.cpp">
+      <Filter>DataStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStorage\Billing.cpp">
+      <Filter>DataStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStorage\CharacterData.cpp">
+      <Filter>DataStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStorage\CharacterDataMgr.cpp">
+      <Filter>DataStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStorage\DBDataMgr.cpp">
+      <Filter>DataStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStorage\DBItemSerialMgr.cpp">
+      <Filter>DataStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStorage\SessionData.cpp">
+      <Filter>DataStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStorage\SessionDataMgr.cpp">
+      <Filter>DataStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStorage\StoreData.cpp">
+      <Filter>DataStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="DataStorage\StoreDataMgr.cpp">
+      <Filter>DataStorage</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranking\RankingDBMgr.cpp">
+      <Filter>Ranking</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEvent\GameEventDBMgr.cpp">
+      <Filter>GameEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEvent\GiveItemMgr.cpp">
+      <Filter>GameEvent</Filter>
+    </ClCompile>
+    <ClCompile Include="Community\Party\PartyDBInfo.cpp">
+      <Filter>Community\Party</Filter>
+    </ClCompile>
+    <ClCompile Include="Community\Party\PartyDBMgr.cpp">
+      <Filter>Community\Party</Filter>
+    </ClCompile>
+    <ClCompile Include="Community\Guild\GuildDB.cpp">
+      <Filter>Community\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Community\Guild\GuildDBMgr.cpp">
+      <Filter>Community\Guild</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\StatueDBMgr.cpp">
+      <Filter>Creature</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Siege\SiegeObjectDB.cpp">
+      <Filter>Creature\Siege\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Siege\SiegeObjectDBMgr.cpp">
+      <Filter>Creature\Siege\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Siege\CampDB.cpp">
+      <Filter>Creature\Siege\AboutCamp</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Siege\CampShopDB.cpp">
+      <Filter>Creature\Siege\AboutCamp</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Siege\MiningCampDB.cpp">
+      <Filter>Creature\Siege\AboutCamp</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Siege\WorldWeaponDB.cpp">
+      <Filter>Creature\Siege\AboutCamp</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Siege\CastleArmsDB.cpp">
+      <Filter>Creature\Siege\AboutCastle</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Siege\CastleEmblemDB.cpp">
+      <Filter>Creature\Siege\AboutCastle</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Siege\CastleGateDB.cpp">
+      <Filter>Creature\Siege\AboutCastle</Filter>
+    </ClCompile>
+    <ClCompile Include="Creature\Siege\SiegeArmsDB.cpp">
+      <Filter>Creature\Siege\AboutSiege</Filter>
+    </ClCompile>
+    <ClCompile Include="Castle\CastleDB.cpp">
+      <Filter>Castle</Filter>
+    </ClCompile>
+    <ClCompile Include="Castle\CastleDBMgr.cpp">
+      <Filter>Castle</Filter>
+    </ClCompile>
+    <ClCompile Include="Map\FieldMap\MineralVeinDBMgr.cpp">
+      <Filter>Map\FieldMap</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime\GameTimeDBMgr.cpp">
+      <Filter>GameTime</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\MapRewardDayToItem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\LoginDispatch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\MapRewardDayToItem_SQL.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="RylDBAgentServer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\AdminToolDispatch.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\AuthDispatch.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\ChatDispatch.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\GameDispatch.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\LoginDispatch.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\Part1DBAgentDispatch.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\UIDDispatch.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SendPacket\SendAdminTool.h">
+      <Filter>Network\SendPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SendPacket\SendCharManage.h">
+      <Filter>Network\SendPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SendPacket\SendGuild.h">
+      <Filter>Network\SendPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SendPacket\SendLoginout.h">
+      <Filter>Network\SendPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SendPacket\SendMoveZone.h">
+      <Filter>Network\SendPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SendPacket\SendParty.h">
+      <Filter>Network\SendPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\SendPacket\SendServerInfo.h">
+      <Filter>Network\SendPacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ParsePacket\ParseCastle.h">
+      <Filter>Network\ParsePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ParsePacket\ParseCharManage.h">
+      <Filter>Network\ParsePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ParsePacket\ParseCharUpdate.h">
+      <Filter>Network\ParsePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ParsePacket\ParseGuild.h">
+      <Filter>Network\ParsePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ParsePacket\ParseMoveZone.h">
+      <Filter>Network\ParsePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ParsePacket\ParseParty.h">
+      <Filter>Network\ParsePacket</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStorage\AdminDataMgr.h">
+      <Filter>DataStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStorage\Billing.h">
+      <Filter>DataStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStorage\CharacterData.h">
+      <Filter>DataStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStorage\CharacterDataMgr.h">
+      <Filter>DataStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStorage\DBDataMgr.h">
+      <Filter>DataStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStorage\DBItemSerialMgr.h">
+      <Filter>DataStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStorage\SessionData.h">
+      <Filter>DataStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStorage\SessionDataMgr.h">
+      <Filter>DataStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStorage\StoreData.h">
+      <Filter>DataStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStorage\StoreDataMgr.h">
+      <Filter>DataStorage</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranking\RankingDBMgr.h">
+      <Filter>Ranking</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEvent\GameEventDBMgr.h">
+      <Filter>GameEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEvent\GiveItemMgr.h">
+      <Filter>GameEvent</Filter>
+    </ClInclude>
+    <ClInclude Include="Community\Party\PartyDBInfo.h">
+      <Filter>Community\Party</Filter>
+    </ClInclude>
+    <ClInclude Include="Community\Party\PartyDBMgr.h">
+      <Filter>Community\Party</Filter>
+    </ClInclude>
+    <ClInclude Include="Community\Guild\GuildDB.h">
+      <Filter>Community\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="Community\Guild\GuildDBMgr.h">
+      <Filter>Community\Guild</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\StatueDBMgr.h">
+      <Filter>Creature</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Siege\SiegeObjectDB.h">
+      <Filter>Creature\Siege\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Siege\SiegeObjectDBMgr.h">
+      <Filter>Creature\Siege\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Siege\CampDB.h">
+      <Filter>Creature\Siege\AboutCamp</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Siege\CampShopDB.h">
+      <Filter>Creature\Siege\AboutCamp</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Siege\MiningCampDB.h">
+      <Filter>Creature\Siege\AboutCamp</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Siege\WorldWeaponDB.h">
+      <Filter>Creature\Siege\AboutCamp</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Siege\CastleArmsDB.h">
+      <Filter>Creature\Siege\AboutCastle</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Siege\CastleEmblemDB.h">
+      <Filter>Creature\Siege\AboutCastle</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Siege\CastleGateDB.h">
+      <Filter>Creature\Siege\AboutCastle</Filter>
+    </ClInclude>
+    <ClInclude Include="Creature\Siege\SiegeArmsDB.h">
+      <Filter>Creature\Siege\AboutSiege</Filter>
+    </ClInclude>
+    <ClInclude Include="Castle\CastleDB.h">
+      <Filter>Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="Castle\CastleDBMgr.h">
+      <Filter>Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="Map\FieldMap\MineralVeinDBMgr.h">
+      <Filter>Map\FieldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime\GameTimeDBMgr.h">
+      <Filter>GameTime</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\MapRewardDayToItem.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="RYLDBAgentServer.ico">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RylDBAgentServer.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

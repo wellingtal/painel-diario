@@ -1,0 +1,5 @@
+[Ty-ERR][Tm-2011-09-13 17:13:55][Ex-아이템 스크립트 파일 로딩에 실패했습니다.][Rt-Item::CItemMgr::LoadItemProtoType][FN-e:\myproj\godsofwar\server\rylserverproject\rylgamelibrary\item\itemmgr.cpp][LN-162]
+[Ty-ERR][Tm-2011-09-13 17:13:55][Ex-아이템 스크립트를 읽을 수 없습니다.][Rt-CRylGameServer::InitializeGameObject][FN-e:\myproj\godsofwar\server\rylserverproject\rylgameserver\managegameobject.cpp][LN-140]
+[Ty-ERR][Tm-2011-09-13 17:13:55][Ex-this:0x01128A08/RowGameServer initialize failed : Gameobjects load failed][Rt-CRylGameServer::ApplicationSpecificInit][FN-e:\myproj\godsofwar\server\rylserverproject\rylgameserver\rylgameserver.cpp][LN-117]
+[Ty-ERR][Tm-2011-09-13 17:13:55][Ex-this:0x01128A08/ServerWindowFramework initialize failed - ApplicationSpecificInit failed][Rt-CServerWindowFramework::Initialize][FN-e:\myproj\godsofwar\server\rylserverproject\rylserverlibrary\utility\serverappframework\serverwindowframework.cpp][LN-214]
+[Ty-NOR][로그를 끝냅니다.]

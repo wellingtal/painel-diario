@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{bf8c15d1-12ef-4ee4-9055-8d7390b49391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Nave">
+      <UniqueIdentifier>{45888f1b-5f24-4617-9213-404c868f6e43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NaveNet">
+      <UniqueIdentifier>{6b79074d-fa6c-4c17-86c0-ac26bed3a561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NaveNet\GZip">
+      <UniqueIdentifier>{ed45babe-750b-4447-aa7e-f400508622fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{d78514ca-8a8f-41ba-8a3e-b9547e6d618d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MD5\global.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MD5\md5.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Nave\NFFilePtr.h">
+      <Filter>Nave</Filter>
+    </ClInclude>
+    <ClInclude Include="Nave\NFTokenizer.h">
+      <Filter>Nave</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\NFIOBuffer.h">
+      <Filter>NaveNet</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\NFNet.h">
+      <Filter>NaveNet</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\NFNetClientS.h">
+      <Filter>NaveNet</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\NFPacket.h">
+      <Filter>NaveNet</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\NFSync.h">
+      <Filter>NaveNet</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\GZip\crc32.h">
+      <Filter>NaveNet\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\GZip\deflate.h">
+      <Filter>NaveNet\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\GZip\gzip.h">
+      <Filter>NaveNet\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\GZip\inffast.h">
+      <Filter>NaveNet\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\GZip\inffixed.h">
+      <Filter>NaveNet\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\GZip\inflate.h">
+      <Filter>NaveNet\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\GZip\inftrees.h">
+      <Filter>NaveNet\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\GZip\trees.h">
+      <Filter>NaveNet\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\GZip\zconf.h">
+      <Filter>NaveNet\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\GZip\zconf.in.h">
+      <Filter>NaveNet\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\GZip\zlib.h">
+      <Filter>NaveNet\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="NaveNet\GZip\zutil.h">
+      <Filter>NaveNet\GZip</Filter>
+    </ClInclude>
+    <ClInclude Include="AuthClient.h" />
+    <ClInclude Include="NetAuth.h" />
+    <ClInclude Include="NFIPSec.h" />
+    <ClInclude Include="Packet.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="MD5\md5c.c">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="Nave\NFTokenizer.cpp">
+      <Filter>Nave</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\NFIOBuffer.cpp">
+      <Filter>NaveNet</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\NFNet.cpp">
+      <Filter>NaveNet</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\NFNetClientS.cpp">
+      <Filter>NaveNet</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\NFPacket.cpp">
+      <Filter>NaveNet</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\GZip\adler32.c">
+      <Filter>NaveNet\GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\GZip\compress.c">
+      <Filter>NaveNet\GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\GZip\crc32.c">
+      <Filter>NaveNet\GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\GZip\deflate.c">
+      <Filter>NaveNet\GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\GZip\gzio.c">
+      <Filter>NaveNet\GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\GZip\gzip.cpp">
+      <Filter>NaveNet\GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\GZip\infback.c">
+      <Filter>NaveNet\GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\GZip\inffast.c">
+      <Filter>NaveNet\GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\GZip\inflate.c">
+      <Filter>NaveNet\GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\GZip\inftrees.c">
+      <Filter>NaveNet\GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\GZip\trees.c">
+      <Filter>NaveNet\GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\GZip\uncompr.c">
+      <Filter>NaveNet\GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="NaveNet\GZip\zutil.c">
+      <Filter>NaveNet\GZip</Filter>
+    </ClCompile>
+    <ClCompile Include="AuthClient.cpp" />
+    <ClCompile Include="NetAuth.cpp" />
+    <ClCompile Include="NFIPSec.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="SDK\Lib\zlib.lib">
+      <Filter>SDK</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

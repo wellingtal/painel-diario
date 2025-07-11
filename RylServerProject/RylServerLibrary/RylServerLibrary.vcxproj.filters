@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{325b154a-1456-41ec-b01f-b6ad9980a828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\ServerAppFramework">
+      <UniqueIdentifier>{256f7f27-5317-4170-9e8b-b59412a7185c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\ServerAppFramework\ConsoleWindow">
+      <UniqueIdentifier>{814608f8-53fa-4643-b3a7-84e9b1e10783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\ServerAppFramework\SysTray">
+      <UniqueIdentifier>{eefb7dac-5d27-4a0d-af83-7a931791ce2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\ServerAppFramework\MsgProc">
+      <UniqueIdentifier>{8f6be659-60c5-43ca-b918-f1e4cfea073c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Setup">
+      <UniqueIdentifier>{3a67b153-58f7-4f6c-b2ec-144c6e9a778b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Filter">
+      <UniqueIdentifier>{c35ce7ca-8ab0-4c1a-bdd1-c619a0f43e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{d090f2ea-d05c-4f63-8b80-0fc879577461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Packet">
+      <UniqueIdentifier>{db4d6c77-d347-45cb-acaa-bb64f1d371f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Packet\PacketStruct">
+      <UniqueIdentifier>{be67b93c-539b-4f04-ab5b-93fe11fe6da1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Dispatch">
+      <UniqueIdentifier>{8dc8fc09-7d26-4bd4-baff-9736e9a885a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\XORCrypt">
+      <UniqueIdentifier>{755d1eba-0958-42dc-9ad8-4d271ef21ee3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Stream">
+      <UniqueIdentifier>{e1ba7cde-4440-4499-8b42-9059735010e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Session">
+      <UniqueIdentifier>{24bd2aa5-60aa-48bd-a2f3-9ae5767d5375}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\ClientNetwork">
+      <UniqueIdentifier>{529449d3-61ec-4a53-8587-dab10eb87ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{28972fde-f2e1-409e-9a80-651ce1ba0635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Community">
+      <UniqueIdentifier>{bcdffa64-a620-4af8-b38e-c3015d1f967c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Utility\ServerAppFramework\ServerWindowFramework.cpp">
+      <Filter>Utility\ServerAppFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\ServerAppFramework\ConsoleWindow\ConsoleCMDFactory.cpp">
+      <Filter>Utility\ServerAppFramework\ConsoleWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\ServerAppFramework\ConsoleWindow\ConsoleWindow.cpp">
+      <Filter>Utility\ServerAppFramework\ConsoleWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\ServerAppFramework\SysTray\SysTray.cpp">
+      <Filter>Utility\ServerAppFramework\SysTray</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\ServerAppFramework\MsgProc\MsgProc.cpp">
+      <Filter>Utility\ServerAppFramework\MsgProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\ServerAppFramework\MsgProc\TimerProc.cpp">
+      <Filter>Utility\ServerAppFramework\MsgProc</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Setup\ServerSetup.cpp">
+      <Filter>Utility\Setup</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Filter\Filter.cpp">
+      <Filter>Utility\Filter</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Packet\PacketBase.cpp">
+      <Filter>Network\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Packet\PacketStatistics.cpp">
+      <Filter>Network\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Packet\WrapPacket.cpp">
+      <Filter>Network\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\CheckPing.cpp">
+      <Filter>Network\Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\MultiDispatchStorage.cpp">
+      <Filter>Network\Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\MultiThreadDispatch.cpp">
+      <Filter>Network\Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\RylServerDispatch.cpp">
+      <Filter>Network\Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\SingleDispatchStorage.cpp">
+      <Filter>Network\Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\XORCrypt\XORCrypt.cpp">
+      <Filter>Network\XORCrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\XORCrypt\XORCryptoCodeList.cpp">
+      <Filter>Network\XORCrypt</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Stream\SendStream.cpp">
+      <Filter>Network\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Stream\Serializer.cpp">
+      <Filter>Network\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Session\LimitUserByIP.cpp">
+      <Filter>Network\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientNetwork\ClientEventHandler.cpp">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientNetwork\MessageBlock.cpp">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientNetwork\NetworkMsgBlock.cpp">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientNetwork\Session.cpp">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientNetwork\SessionMgr.cpp">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientNetwork\TCPSession.cpp">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\ClientNetwork\UDPSession.cpp">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClCompile>
+    <ClCompile Include="Db\AdminDBComponent.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Db\AuthDBComponent.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Db\BillingDBComponent.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Db\DBComponent.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Db\GameDBComponent.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Db\GuildDBComponent.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Community\BanList.cpp">
+      <Filter>Community</Filter>
+    </ClCompile>
+    <ClCompile Include="Community\FriendList.cpp">
+      <Filter>Community</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utility\ServerAppFramework\ServerWindowFramework.h">
+      <Filter>Utility\ServerAppFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\ServerAppFramework\ConsoleWindow\ConsoleCMDFactory.h">
+      <Filter>Utility\ServerAppFramework\ConsoleWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\ServerAppFramework\ConsoleWindow\ConsoleWindow.h">
+      <Filter>Utility\ServerAppFramework\ConsoleWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\ServerAppFramework\SysTray\SysTray.h">
+      <Filter>Utility\ServerAppFramework\SysTray</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\ServerAppFramework\MsgProc\MsgProc.h">
+      <Filter>Utility\ServerAppFramework\MsgProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\ServerAppFramework\MsgProc\TimerProc.h">
+      <Filter>Utility\ServerAppFramework\MsgProc</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Setup\GlobalConstants.h">
+      <Filter>Utility\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Setup\ServerSetup.h">
+      <Filter>Utility\Setup</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Filter\Filter.h">
+      <Filter>Utility\Filter</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\ChatToolPacketCmd.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\ManagePacketCmd.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketBase.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketCommand.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketDispatchTable.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStatistics.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\WrapPacket.h">
+      <Filter>Network\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\AuthServerToDBAgentServer.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\BGServerPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\CastlePacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\ClientToAuthServer.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\ClientToLoginServer.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\DataPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\FriendPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\GameEventPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\GameLogPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\GuildPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\PartyPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\RankingPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\ServerInfo.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\ServerLogPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\ServerPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Packet\PacketStruct\UnifiedCharPacket.h">
+      <Filter>Network\Packet\PacketStruct</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\CheckPing.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\MultiDispatchStorage.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\MultiThreadDispatch.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\RylServerDispatch.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\SingleDispatchStorage.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\XORCrypt\XORCrypt.h">
+      <Filter>Network\XORCrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Stream\SendStream.h">
+      <Filter>Network\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Stream\Serializer.h">
+      <Filter>Network\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Session\CreatePolicy.h">
+      <Filter>Network\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Session\LimitUserByIP.h">
+      <Filter>Network\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\ClientEventHandler.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\EventHandler.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\MessageBlock.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\NetworkMsgBlock.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\NullHandler.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\NullSession.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\Session.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\SessionMgr.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\TCPSession.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\ClientNetwork\UDPSession.h">
+      <Filter>Network\ClientNetwork</Filter>
+    </ClInclude>
+    <ClInclude Include="Db\AdminDBComponent.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Db\AuthDBComponent.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Db\BillingDBComponent.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Db\DBComponent.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Db\DBdefine.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Db\GameDBComponent.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Db\GuildDBComponent.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Community\BanList.h">
+      <Filter>Community</Filter>
+    </ClInclude>
+    <ClInclude Include="Community\FriendList.h">
+      <Filter>Community</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+</Project>

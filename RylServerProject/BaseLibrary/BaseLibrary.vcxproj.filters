@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{4b1a09a3-1e99-452e-9796-2f1990cfae8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Dispatch">
+      <UniqueIdentifier>{92583b4f-c634-437e-a1c5-60a7fb83ad3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\IOCP">
+      <UniqueIdentifier>{ceec481d-2c53-49a5-adf5-9381a40ca9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Listener">
+      <UniqueIdentifier>{6040c95d-b9c6-4852-bcf5-8a4b80ec440b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Session">
+      <UniqueIdentifier>{0ec4f43b-9467-4f71-b384-3df914b781f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Winsock">
+      <UniqueIdentifier>{635d719b-ef1c-4545-aa71-feaea2fd9dd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Address">
+      <UniqueIdentifier>{a7fee7f0-052d-4044-a089-06ccfa50cc69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stream">
+      <UniqueIdentifier>{a8868297-dff5-49e2-9741-5514b75dc9a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stream\Buffer">
+      <UniqueIdentifier>{59389242-22c1-4d2b-b64e-cc0aa3ffe9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{1dff0a3f-c96e-42e8-ad30-d62e89c4812d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Log">
+      <UniqueIdentifier>{4e41ff95-3981-4566-bb5b-e88f5d8d8267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{eb0c7751-6367-43cf-b36d-c5c30038f897}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Debug">
+      <UniqueIdentifier>{b80e801a-74d4-4a06-92e7-98bfe70490c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Math">
+      <UniqueIdentifier>{5655b875-dd2a-4e20-a548-1e38f09c1e4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Compress">
+      <UniqueIdentifier>{bd6c277a-d618-494a-bf74-c278d3d5418f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Compress\MiniLZO">
+      <UniqueIdentifier>{0eca824f-8264-4209-abeb-b38101484318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Registry">
+      <UniqueIdentifier>{69a8ffd2-a35b-49b0-a6fe-692d6a021f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Resource">
+      <UniqueIdentifier>{2e90ba7b-cd14-4058-83bb-561c20913830}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Time">
+      <UniqueIdentifier>{a97a9399-4d40-4603-a291-ec917db5af90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\Time\Pulse">
+      <UniqueIdentifier>{ac0388ba-df42-4775-b85c-d8d8f1480d13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\CheckSum">
+      <UniqueIdentifier>{2e9a5f73-1d53-465f-aa87-2bd6eb76b7cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utility\File">
+      <UniqueIdentifier>{0ea5c524-5276-4e79-aef4-3948bac7ef99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pattern">
+      <UniqueIdentifier>{6546cd1e-b0b0-49fe-9ef3-190fb5712e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{7bf6fb91-729a-40c7-bad8-4d49122ab956}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{f790cb13-1f18-4a6d-abca-8eaba5ccfe5b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Network\Dispatch\Dispatch.cpp">
+      <Filter>Network\Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Dispatch\ServerRequest.cpp">
+      <Filter>Network\Dispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Iocp\CompletionHandler.cpp">
+      <Filter>Network\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Iocp\IOCPNet.cpp">
+      <Filter>Network\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Iocp\IOWorker.cpp">
+      <Filter>Network\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Iocp\Overlapped.cpp">
+      <Filter>Network\IOCP</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Listener\Listener.cpp">
+      <Filter>Network\Listener</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Session\Session.cpp">
+      <Filter>Network\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Session\SessionMgr.cpp">
+      <Filter>Network\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Session\SessionPolicy.cpp">
+      <Filter>Network\Session</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Winsock\SocketFactory.cpp">
+      <Filter>Network\Winsock</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\Address\INET_Addr.cpp">
+      <Filter>Network\Address</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream\Buffer\Buffer.cpp">
+      <Filter>Stream\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream\Buffer\BufferFactory.cpp">
+      <Filter>Stream\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Stream\Buffer\BufferQueue.cpp">
+      <Filter>Stream\Buffer</Filter>
+    </ClCompile>
+    <ClCompile Include="Thread\ThreadMgr.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="Log\ServerLog.cpp">
+      <Filter>Log</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Debug\DebugUtils.cpp">
+      <Filter>Utility\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Debug\ExceptionReport.cpp">
+      <Filter>Utility\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Debug\PerformanceCheck.cpp">
+      <Filter>Utility\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Math\Math.cpp">
+      <Filter>Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Math\PseudoRandom.cpp">
+      <Filter>Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Math\Random.cpp">
+      <Filter>Utility\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Compress\MiniLZO\minilzo.cpp">
+      <Filter>Utility\Compress\MiniLZO</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Compress\MiniLZO\miniLZOWrapper.cpp">
+      <Filter>Utility\Compress\MiniLZO</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Registry\RegFunctions.cpp">
+      <Filter>Utility\Registry</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\Time\Pulse\Pulse.cpp">
+      <Filter>Utility\Time\Pulse</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\checksum\Crc32Static.cpp">
+      <Filter>Utility\CheckSum</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\checksum\Crc8Static.cpp">
+      <Filter>Utility\CheckSum</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility\File\MappedFile.cpp">
+      <Filter>Utility\File</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattern\Command.cpp">
+      <Filter>Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattern\CommandQueue.cpp">
+      <Filter>Pattern</Filter>
+    </ClCompile>
+    <ClCompile Include="Db\OLEDB.cpp">
+      <Filter>DB</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory\MemoryPool.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Network\Dispatch\Dispatch.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\PoolDispatchFactory.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Dispatch\ServerRequest.h">
+      <Filter>Network\Dispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Iocp\CompletionHandler.h">
+      <Filter>Network\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Iocp\IOCPNet.h">
+      <Filter>Network\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Iocp\IOWorker.h">
+      <Filter>Network\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Iocp\Overlapped.h">
+      <Filter>Network\IOCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Listener\Listener.h">
+      <Filter>Network\Listener</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Session\Session.h">
+      <Filter>Network\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Session\SessionMgr.h">
+      <Filter>Network\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Session\SessionPolicy.h">
+      <Filter>Network\Session</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Winsock\SocketFactory.h">
+      <Filter>Network\Winsock</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Address\INET_Addr.h">
+      <Filter>Network\Address</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream\Buffer\Buffer.h">
+      <Filter>Stream\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream\Buffer\BufferFactory.h">
+      <Filter>Stream\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Stream\Buffer\BufferQueue.h">
+      <Filter>Stream\Buffer</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\Lock.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\Thread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Thread\ThreadMgr.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\ServerLog.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Log\ServerLogDefine.h">
+      <Filter>Log</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Debug\DebugMacros.h">
+      <Filter>Utility\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Debug\DebugUtils.h">
+      <Filter>Utility\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Debug\DLLModule.h">
+      <Filter>Utility\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Debug\ExceptionReport.h">
+      <Filter>Utility\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Debug\PerformanceCheck.h">
+      <Filter>Utility\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Math\Math.h">
+      <Filter>Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Math\PseudoRandom.h">
+      <Filter>Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Math\Random.h">
+      <Filter>Utility\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Compress\MiniLZO\lzoconf.h">
+      <Filter>Utility\Compress\MiniLZO</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Compress\MiniLZO\minilzo.h">
+      <Filter>Utility\Compress\MiniLZO</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Compress\MiniLZO\miniLZOWrapper.h">
+      <Filter>Utility\Compress\MiniLZO</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Registry\RegFunctions.h">
+      <Filter>Utility\Registry</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Resource\EnsureCleanup.h">
+      <Filter>Utility\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\Time\Pulse\Pulse.h">
+      <Filter>Utility\Time\Pulse</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\checksum\Common.h">
+      <Filter>Utility\CheckSum</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\checksum\Crc32Static.h">
+      <Filter>Utility\CheckSum</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\checksum\Crc8Static.h">
+      <Filter>Utility\CheckSum</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility\File\MappedFile.h">
+      <Filter>Utility\File</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern\Command.h">
+      <Filter>Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern\CommandQueue.h">
+      <Filter>Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Pattern\Singleton.h">
+      <Filter>Pattern</Filter>
+    </ClInclude>
+    <ClInclude Include="Db\OLEDB.h">
+      <Filter>DB</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory\MemoryPool.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Utility\Math\Convert.inl">
+      <Filter>Utility\Math</Filter>
+    </None>
+  </ItemGroup>
+</Project>
