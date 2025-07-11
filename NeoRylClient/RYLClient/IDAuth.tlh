@@ -1,0 +1,60 @@
+// Created by Microsoft (R) C/C++ Compiler Version 12.00.8447.0 (bdc5763c).
+//
+// IDAuth.tlh
+//
+// C++ source equivalent of Win32 type library IDAuth.tlb
+// compiler-generated file created 09/05/03 at 11:26:15 - DO NOT EDIT!
+
+#pragma once
+#pragma pack(push, 8)
+
+#include <comdef.h>
+
+//
+// Forward references and typedefs
+//
+
+struct /* coclass */ ReqGameID;
+struct __declspec(uuid("5637bece-1df4-472f-95ad-0d33d093a580"))
+/* dual interface */ IReqGameID;
+
+//
+// Smart pointer typedef declarations
+//
+
+_COM_SMARTPTR_TYPEDEF(IReqGameID, __uuidof(IReqGameID));
+
+//
+// Type library items
+//
+
+struct __declspec(uuid("2d765b04-4667-4c5b-8692-124e436ddcae"))
+ReqGameID;
+    // [ default ] interface IReqGameID
+
+struct __declspec(uuid("5637bece-1df4-472f-95ad-0d33d093a580"))
+IReqGameID : IDispatch
+{
+    //
+    // Wrapper methods for error-handling
+    //
+
+    _bstr_t GetReqGameID (
+        _bstr_t bstrData );
+
+    //
+    // Raw methods provided by interface
+    //
+
+    virtual HRESULT __stdcall get_ReqGameID (
+        BSTR bstrData,
+        BSTR * pGameID ) = 0;
+};
+
+//
+// Wrapper method implementations
+//
+
+#include "IDAuth.tli"
+
+#pragma pack(pop)

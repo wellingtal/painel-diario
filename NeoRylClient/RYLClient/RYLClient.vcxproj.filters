@@ -1,0 +1,1823 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="RYL EventHandler Files">
+      <UniqueIdentifier>{71a280b9-ea06-4d47-8958-b116371b36e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL EventHandler Files\GameProcess">
+      <UniqueIdentifier>{078e4e63-549e-4f31-8f80-e16a99badddc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL UserInterface Files">
+      <UniqueIdentifier>{f5a6e692-da4d-4565-b10c-e17ec660d7e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL UserInterface Files\Gama UI Files">
+      <UniqueIdentifier>{83049ae5-4534-4141-8904-4305a62dd47e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL UserInterface Files\Gama UI Files\Custom Control Files">
+      <UniqueIdentifier>{0b091c5e-5031-485a-a220-912202386fae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL UserInterface Files\Gama UI Files\Gama Font Texture">
+      <UniqueIdentifier>{11459088-48af-4923-8436-8a244bbdadc6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL UserInterface Files\Gama UI Files\Control Files">
+      <UniqueIdentifier>{de6a378b-dab7-4685-9288-2dfce9bbb00e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL UserInterface Files\Gama UI Files\IME Files">
+      <UniqueIdentifier>{e5bfbb19-8d28-4f5f-8765-9166f29fc667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL UserInterface Files\Gama UI Files\Tooltip Box">
+      <UniqueIdentifier>{5ba00dab-d9f3-4deb-9658-7594a9826522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL UserInterface Files\Gama UI Files\Message Box">
+      <UniqueIdentifier>{6ad2c895-25ad-478b-b994-c4dbf9ea79ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL UserInterface Files\Gama Utility Files">
+      <UniqueIdentifier>{a8128da8-41f9-46dc-95ff-c13ea5a31227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL UserInterface Files\Gama Image Library Files">
+      <UniqueIdentifier>{0b49bb1d-7e97-4650-82e2-5a77d18b4f67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL UserInterface Files\RYL Interface Files">
+      <UniqueIdentifier>{a6690d68-77e7-4836-8bb1-fd703f07cb7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL UserInterface Files\RYL Interface Files\RYL UI Image Files">
+      <UniqueIdentifier>{dd7a960c-e602-459d-9c6a-b43dfe55a785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Old Files">
+      <UniqueIdentifier>{d53a014d-3916-4fa9-98ca-ff201b58dc2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Old Files\NPC">
+      <UniqueIdentifier>{64d9cf11-91f4-43d4-b81c-5e0989c7b52a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script &amp; Library">
+      <UniqueIdentifier>{1fde084c-1d94-4b00-ba19-c35d3002c0a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script &amp; Library\MD5">
+      <UniqueIdentifier>{9afc8947-c028-4d0b-89a6-24245408c02c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Script &amp; Library\MyFirewall">
+      <UniqueIdentifier>{306f7cdf-6a78-4930-9dd6-74f7c9edc226}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files">
+      <UniqueIdentifier>{05d02977-81b6-4c04-8ddc-273286258eff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Character Files">
+      <UniqueIdentifier>{2d5861ab-1a88-446d-8527-41cf9ac5bc9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files">
+      <UniqueIdentifier>{9bef91b6-23e8-4c98-982c-791f24682aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Intro Scene Files">
+      <UniqueIdentifier>{3bcdfb25-26fb-4ff9-9399-bbbc4f3a04ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Race Select Scene Files">
+      <UniqueIdentifier>{c3a56317-1b37-4162-b4e9-1ac9aaec4532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Character Select Scene Files">
+      <UniqueIdentifier>{6f4d5907-bd2d-4240-ae68-1f3f1ffd7d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Character Select Scene Files\Dialog Files">
+      <UniqueIdentifier>{748a8ffb-4afc-4efb-a55f-4caf6286f4bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Character Select Scene Files\Dialog Files\Channel Window">
+      <UniqueIdentifier>{684e64d3-0f4c-411c-adfc-518640fd4c87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Loading Scene Files">
+      <UniqueIdentifier>{f3c18e33-f2d6-435b-9d86-7db9eeea5207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files">
+      <UniqueIdentifier>{6086a92f-cf24-4b38-b4fb-8bbe02248fa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files">
+      <UniqueIdentifier>{76f60a98-8edc-401d-a04a-0b22f78f212c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs">
+      <UniqueIdentifier>{4e47b1d4-0918-4c1b-82dd-12107b40c2c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel">
+      <UniqueIdentifier>{c678cf62-43a0-4ea5-81d6-30143e10e68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel\Sub Panel">
+      <UniqueIdentifier>{9a4a449e-9bc0-44d4-b8ad-8ee271a03e07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Society Frame Dialogs">
+      <UniqueIdentifier>{272d8254-8b9e-4520-8172-d879338cec1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Society Frame Dialogs\Sub Panel">
+      <UniqueIdentifier>{184cd4de-74b0-488f-8df2-856af60b6f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs">
+      <UniqueIdentifier>{f68cec08-212c-4767-991b-cbbf19c78040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs\Menu">
+      <UniqueIdentifier>{cf72799d-6193-4b77-91df-4db60f62b6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs">
+      <UniqueIdentifier>{3b79440f-66ca-4f73-8009-ad6daf12677e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel">
+      <UniqueIdentifier>{82fc23a9-d2e2-4da3-91fd-4b1ad28807f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Old Code Files">
+      <UniqueIdentifier>{242f12af-cd7d-4f52-9f54-718b296ebff2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Trade Frame Dialogs">
+      <UniqueIdentifier>{6821e2a9-9177-4d47-bd0e-f06304610778}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Chatting Frame Dialogs">
+      <UniqueIdentifier>{c191430f-99be-49f3-8ef6-4a9a52183035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Dialogs">
+      <UniqueIdentifier>{dd564455-f43a-4342-b61c-0bb205e4bd02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Exchange Dialogs">
+      <UniqueIdentifier>{8c314b53-745d-40b8-9aee-3806e8c9ae21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\JobExchange Dialogs">
+      <UniqueIdentifier>{0ee15c95-49ef-4300-906e-b8d201ebe38e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\System Dialogs">
+      <UniqueIdentifier>{8adee323-0574-4417-bff1-259eb26f438f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\System Dialogs\OptionDlg">
+      <UniqueIdentifier>{bc911820-7c2b-4664-9433-0a59152b4096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\System Dialogs\OptionDlg\SubPanel">
+      <UniqueIdentifier>{44c7ad96-5366-4203-bf75-d7ffd2d55780}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Vault Dialogs">
+      <UniqueIdentifier>{6454f7e1-0f52-4d50-ac1a-11bf654d5212}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\StreetStall Dialogs">
+      <UniqueIdentifier>{39eb2404-5885-4c08-9bdd-1c967f2fa046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Summon Dialogs">
+      <UniqueIdentifier>{d4786814-54e8-4cea-aece-fe72696020d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Result Dialogs">
+      <UniqueIdentifier>{90c5d42c-27a5-47be-8a66-b2299199d3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Status Dialogs">
+      <UniqueIdentifier>{8a698d04-235e-43ce-b460-da3d8e9c80f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Change Money Dialogs">
+      <UniqueIdentifier>{13936c48-e04c-4e51-b5aa-56ff62966412}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs">
+      <UniqueIdentifier>{d48bd63c-5d42-4575-b281-1f091b79cc67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\CastleDoor">
+      <UniqueIdentifier>{ada3c140-c2f0-45f8-8045-332d5a3185b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Siege Arms">
+      <UniqueIdentifier>{cf5f96d7-d085-4433-8a10-0247b93ddc32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp">
+      <UniqueIdentifier>{d7b0136a-a68e-49f8-8a6a-602bb8023358}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle">
+      <UniqueIdentifier>{bfbde788-c882-4724-bd28-d6379f3642b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle\Castle Status">
+      <UniqueIdentifier>{47a0c35d-5abd-4d27-8a68-6acd880d5bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle\Castle Status\Sub Panel">
+      <UniqueIdentifier>{e6311052-914e-475e-93bb-104f72719029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Respawn Dialogs">
+      <UniqueIdentifier>{ce030af9-bd3c-4197-bbb0-ed3acf433734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\ChangeName Dialogs">
+      <UniqueIdentifier>{be52e12a-14d1-4f31-a357-eb5856bb9102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs">
+      <UniqueIdentifier>{e4915fc1-3926-4265-a12e-73e128b55cbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Large Map Frame Window">
+      <UniqueIdentifier>{416175b7-8d65-497b-809c-c49efa205e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Large Map Frame Window\Sub Panel">
+      <UniqueIdentifier>{4e6efe3e-5e8b-4b4c-8742-e9de2d398ca9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Status Slot">
+      <UniqueIdentifier>{da32554e-7df9-49f6-b0e8-d0240f7bafac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Skill Tooltip">
+      <UniqueIdentifier>{a197683f-84a6-4319-8325-9171fae51ea0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Help Frame Window">
+      <UniqueIdentifier>{d88065ea-4762-4d5e-aca1-5440a57633a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Help Frame Window\Sub Panel">
+      <UniqueIdentifier>{e2165d1e-9119-4bd6-adcb-4d7ee82ae79f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Login Scene Files">
+      <UniqueIdentifier>{f6c7c155-ecab-4934-8a26-ec4bbd87d3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files">
+      <UniqueIdentifier>{880fb07d-15a4-4317-8d2a-a833b2165946}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files\Unified Korea">
+      <UniqueIdentifier>{3137b2bb-bff8-4f0e-8769-e0a99bac22da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files\Unified China">
+      <UniqueIdentifier>{5ee374d6-5672-4271-8987-a43587723029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Utility Files">
+      <UniqueIdentifier>{14e9848d-96c8-42c7-b9b5-884d120843e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Castle Files">
+      <UniqueIdentifier>{9e514156-b7e2-4eac-bddf-46a8a835811c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Game Time Files">
+      <UniqueIdentifier>{076cf359-1fee-46e7-afc8-60f589f9d5cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Notice Files">
+      <UniqueIdentifier>{2f875242-c4d0-4787-b7a1-535ab29e4b01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="RYL Client Files\RYL Game Time Files\RYL Client Main Files">
+      <UniqueIdentifier>{2145b839-25ef-450c-88d6-326d67b66eca}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EventHandler\AuthHandler.cpp">
+      <Filter>RYL EventHandler Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GameHandler.cpp">
+      <Filter>RYL EventHandler Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\LogFunctions.cpp">
+      <Filter>RYL EventHandler Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GameProcess\BattleGroundClientProcess.cpp">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GameProcess\BroadcastProcess.cpp">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GameProcess\CastleProcess.cpp">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GameProcess\CharInfoProcess.cpp">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GameProcess\ChatProcess.cpp">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GameProcess\CommunityProcess.cpp">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GameProcess\EtcProcess.cpp">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GameProcess\FightProcess.cpp">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GameProcess\ItemProcess.cpp">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GameProcess\LoginoutProcess.cpp">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GameProcess\MoveProcess.cpp">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GameProcess\QuestProcess.cpp">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="EventHandler\GameProcess\SkillProcess.cpp">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUIMain.cpp">
+      <Filter>RYL UserInterface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMObject.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUIScreen.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUICustomButton.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUICustomCheckBox.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUICustomComboBox.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUICustomDlg.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUICustomEdit.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUICustomIMEView.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUICustomLabel.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUICustomListBox.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUICustomMenu.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUICustomPanel.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUICustomTabButton.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUIObject.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMFont.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Gama Font Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMFontTexture.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Gama Font Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLFontTexture.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Gama Font Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUIButton.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUICaptionButton.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUICheckBox.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUIComboBox.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUILabel.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUIListBox.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUITabButton.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\Ime\GMIMEPACK.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\IME Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUITooltip.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Tooltip Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUITooltipBox.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Tooltip Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUITooltipManager.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Tooltip Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLMessageBox.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Message Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLMessageBoxManager.cpp">
+      <Filter>RYL UserInterface Files\Gama UI Files\Message Box</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMBase.cpp">
+      <Filter>RYL UserInterface Files\Gama Utility Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMFileUtil.cpp">
+      <Filter>RYL UserInterface Files\Gama Utility Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMList.cpp">
+      <Filter>RYL UserInterface Files\Gama Utility Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMStream.cpp">
+      <Filter>RYL UserInterface Files\Gama Utility Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMString.cpp">
+      <Filter>RYL UserInterface Files\Gama Utility Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMUIUtil.cpp">
+      <Filter>RYL UserInterface Files\Gama Utility Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMImage.cpp">
+      <Filter>RYL UserInterface Files\Gama Image Library Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMImageBitmap.cpp">
+      <Filter>RYL UserInterface Files\Gama Image Library Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMImageDib.cpp">
+      <Filter>RYL UserInterface Files\Gama Image Library Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMImageTarga.cpp">
+      <Filter>RYL UserInterface Files\Gama Image Library Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLAnimationButton.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLButton.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLCheckBox.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLComboBox.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLDialog.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLEdit.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLGridLabel.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLIMEView.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLLabel.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLListBox.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLPicture.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLProgressBar.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLSpriteEX.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLStringGrid.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLTabButton.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\GMTexture.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLFormatList.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLImage.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLImageCabinet.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLImageManager.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLRectangle.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLSpriteList.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLTexture.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLTextureList.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Rylui\RYLTextureManager.cpp">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CharStatus.cpp">
+      <Filter>RYL Old Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUITextEdit.cpp">
+      <Filter>RYL Old Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUITooltip.cpp">
+      <Filter>RYL Old Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUITooltipButton.cpp">
+      <Filter>RYL Old Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUITooltipItem.cpp">
+      <Filter>RYL Old Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUITooltipManager.cpp">
+      <Filter>RYL Old Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIWindow.cpp">
+      <Filter>RYL Old Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HumanStoneStatueRespawn.cpp">
+      <Filter>RYL Old Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillNode.cpp">
+      <Filter>RYL Old Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillSystem.cpp">
+      <Filter>RYL Old Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StringFilter.cpp">
+      <Filter>RYL Old Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Npc\NPCList.cpp">
+      <Filter>RYL Old Files\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugUtils.cpp">
+      <Filter>Script &amp; Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Md5\md5c.c">
+      <Filter>Script &amp; Library\MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLClientMain.cpp">
+      <Filter>RYL Client Files\RYL Game Time Files\RYL Client Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCommunityData.cpp">
+      <Filter>RYL Client Files\RYL Game Time Files\RYL Client Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLGameData.cpp">
+      <Filter>RYL Client Files\RYL Game Time Files\RYL Client Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLNetWorkData.cpp">
+      <Filter>RYL Client Files\RYL Game Time Files\RYL Client Main Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceBase.cpp">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceInit.cpp">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceInitNPCPopup.cpp">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceInitSiegePopup.cpp">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceNPC.cpp">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceRender.cpp">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceRenderCreature.cpp">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceRenderFight.cpp">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceRenderUI.cpp">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceSiege.cpp">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceUpdate.cpp">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceUpdateAccelerator.cpp">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceUpdateFight.cpp">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceUpdateUI.cpp">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLSceneManager.cpp">
+      <Filter>RYL Client Files\RYL Scene Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLSceneObject.cpp">
+      <Filter>RYL Client Files\RYL Scene Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLIntroScene.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Intro Scene Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRaceSelectScene.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Race Select Scene Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCharacterSelectScene.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Character Select Scene Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCharacterCreationDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Character Select Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCharacterDeleteDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Character Select Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCharacterInfoDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Character Select Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLNationDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Character Select Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLNationSelectDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Character Select Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLChannelDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Character Select Scene Files\Dialog Files\Channel Window</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLLoadingScene.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Loading Scene Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLGameScene.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLArmsHPDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLBlacksmithDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLGMReportDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RylGuildWarPenaltyDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLJoystickConfigureDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLJoystickConfigurePanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLSiegeTimeDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLStatusAndQuestFrameDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLStatusFrameDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCharacterInfoPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCompleteQuestPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLExecutionQuestPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLStatusInfoPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLStatusPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLQuestDetailDataDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLQuestOpeningDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRankingDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLSocietyFrameDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Society Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLFriendPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Society Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLMiniPartyDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Society Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLPartyFindPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Society Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLPartyPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Society Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRefusalPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Society Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLAuthoritySettingDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLGuildBoardPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLGuildFrameDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLGuildInfoPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLGuildMemberPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLGuildPropertyPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLGuildTacticsPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLBitmap.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLGeneralGuildPopup.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLGuildMarkDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLHostilityDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLProposalGuildPopup.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLHumanInventoryFrameDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLAbilityPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLAkhanInventoryPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLHumanInventoryPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLInventoryPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLItemCompositionDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLItemReparationDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLSkillPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLSocialActionPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLTempInventoryDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemInstance.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Old Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemStorage.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Old Code Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLNewTradeDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Trade Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLChattingDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Chatting Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLBattleGroundDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLExchangeDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Exchange Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLJobChangeDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\JobExchange Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLSystemDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\System Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLOptionDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\System Dialogs\OptionDlg</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLEffectOptionPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\System Dialogs\OptionDlg\SubPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLGeneralOptionPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\System Dialogs\OptionDlg\SubPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLSoundOptionPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\System Dialogs\OptionDlg\SubPanel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLVaultDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Vault Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLVaultPasswordDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Vault Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLStallDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\StreetStall Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLStreetStallDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\StreetStall Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLSummonDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Summon Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\battleground client\BattleGroundPrevResultDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Result Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\battleground client\BattleGroundResultDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Result Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\battleground client\BattleGroundGameStatusDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Status Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\battleground client\BattleGroundStatusDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Status Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\battleground client\BattleGroundChangeMoneyDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Change Money Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCastleDoorblockDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\CastleDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLArmsCreatMenuDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Siege Arms</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLSiegeArmsCreatingDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Siege Arms</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCampChangeDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCampCreatingDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCampRepairDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCampRightDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCampShopDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCampShowTaxInfoDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCampUpgradeDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLMiningAmountDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLMiningAmountProcessDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLMiningCampDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLWorldWeaponLaunchDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLWorldWeaponLoadDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCastleEmblemRightDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLEmblemUpgradeDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCastleStatusFrameDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle\Castle Status</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCastleMineralDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle\Castle Status\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCastleStatusPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle\Castle Status\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLTaxCollectPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle\Castle Status\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLTaxControlPanel.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle\Castle Status\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLBattleWaitDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Respawn Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLRespawnDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Respawn Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLChangeNameDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\ChangeName Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLDialogControlDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLEnchantDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLMiniMapDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLQuickSlotDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLStatusDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLStatusRetrainDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLLargeMapFrameDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Large Map Frame Window</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLLargeMapCampDistributeDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Large Map Frame Window\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLLargeMapDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Large Map Frame Window\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLLargeMapMobDistributeDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Large Map Frame Window\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLStatusExtensionSlotOne.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Status Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLStatusExtensionSlotTwo.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Status Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLAbilityDescDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Skill Tooltip</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLSkillDescDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Skill Tooltip</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLSkillScriptMgr.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Skill Tooltip</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLHelpFrameDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Help Frame Window</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLHelpControlDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Help Frame Window\Sub Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLLoginScene.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLAgreeDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLLoginDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLPCCheckAgreementDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLIntegServerSelCharDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files\Unified Korea</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLIntegServerSelVaultDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files\Unified Korea</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLPartChoiceDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files\Unified Korea</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLPasswordReAuthDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files\Unified Korea</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLSelectedConfirmDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files\Unified Korea</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLChinaUnifiedServerSelCharDlg.cpp">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files\Unified China</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLProfile.cpp">
+      <Filter>RYL Client Files\RYL Utility Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLSprite.cpp">
+      <Filter>RYL Client Files\RYL Utility Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLStringTable.cpp">
+      <Filter>RYL Client Files\RYL Utility Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLTimer.cpp">
+      <Filter>RYL Client Files\RYL Utility Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCamp.cpp">
+      <Filter>RYL Client Files\RYL Castle Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCampManager.cpp">
+      <Filter>RYL Client Files\RYL Castle Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCastle.cpp">
+      <Filter>RYL Client Files\RYL Castle Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLCastleManager.cpp">
+      <Filter>RYL Client Files\RYL Castle Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLGameTimeManager.cpp">
+      <Filter>RYL Client Files\RYL Game Time Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\RYLNoticeManager.cpp">
+      <Filter>RYL Client Files\RYL Notice Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLClient\DailyLoginRewardSystem.cpp" />
+    <ClCompile Include="RYLClient\LoginRewardIntegration.cpp" />
+    <ClCompile Include="RYLClient\GUIDailyLoginPanel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EventHandler\AuthHandler.h">
+      <Filter>RYL EventHandler Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GameHandler.h">
+      <Filter>RYL EventHandler Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\LogFunctions.h">
+      <Filter>RYL EventHandler Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GameProcess\BattleGroundClientProcess.h">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GameProcess\BroadcastProcess.h">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GameProcess\CastleProcess.h">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GameProcess\CharInfoProcess.h">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GameProcess\ChatProcess.h">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GameProcess\CommunityProcess.h">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GameProcess\EtcProcess.h">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GameProcess\FightProcess.h">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GameProcess\ItemProcess.h">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GameProcess\LoginoutProcess.h">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GameProcess\MoveProcess.h">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GameProcess\QuestProcess.h">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="EventHandler\GameProcess\SkillProcess.h">
+      <Filter>RYL EventHandler Files\GameProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUIMain.h">
+      <Filter>RYL UserInterface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMObject.h">
+      <Filter>RYL UserInterface Files\Gama UI Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMObjectDef.h">
+      <Filter>RYL UserInterface Files\Gama UI Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUIScreen.h">
+      <Filter>RYL UserInterface Files\Gama UI Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUICustomButton.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUICustomCheckBox.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUICustomComboBox.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUICustomDlg.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUICustomEdit.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUICustomIMEView.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUICustomLabel.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUICustomListBox.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUICustomMenu.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUICustomPanel.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUICustomTabButton.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUIObject.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMFont.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Gama Font Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMFontTexture.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Gama Font Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLFontTexture.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Gama Font Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUIButton.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUICaptionButton.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUICheckBox.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUIComboBox.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUILabel.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUIListBox.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUITabButton.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\Ime\GMIMEPACK.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\IME Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\Ime\ImeConstant.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\IME Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUITooltip.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Tooltip Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUITooltipBox.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Tooltip Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUITooltipManager.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Tooltip Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLMessageBox.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Message Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLMessageBoxManager.h">
+      <Filter>RYL UserInterface Files\Gama UI Files\Message Box</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMBase.h">
+      <Filter>RYL UserInterface Files\Gama Utility Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMFileUtil.h">
+      <Filter>RYL UserInterface Files\Gama Utility Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMList.h">
+      <Filter>RYL UserInterface Files\Gama Utility Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMStream.h">
+      <Filter>RYL UserInterface Files\Gama Utility Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMString.h">
+      <Filter>RYL UserInterface Files\Gama Utility Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMUIUtil.h">
+      <Filter>RYL UserInterface Files\Gama Utility Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMImage.h">
+      <Filter>RYL UserInterface Files\Gama Image Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMImageBitmap.h">
+      <Filter>RYL UserInterface Files\Gama Image Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMImageDib.h">
+      <Filter>RYL UserInterface Files\Gama Image Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMImageTarga.h">
+      <Filter>RYL UserInterface Files\Gama Image Library Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLAnimationButton.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLButton.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLCheckBox.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLComboBox.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLDialog.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLEdit.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLGridLabel.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLIMEView.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLLabel.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLListBox.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLPicture.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLProgressBar.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLSpriteEX.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLStringGrid.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLTabButton.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\GMTexture.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLFormatList.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLImage.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLImageCabinet.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLImageManager.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLRectangle.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLSpriteList.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLTexture.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLTextureList.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Rylui\RYLTextureManager.h">
+      <Filter>RYL UserInterface Files\RYL Interface Files\RYL UI Image Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CharStatus.h">
+      <Filter>RYL Old Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DataTable.h">
+      <Filter>RYL Old Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUITextEdit.h">
+      <Filter>RYL Old Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUITooltip.h">
+      <Filter>RYL Old Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUITooltipButton.h">
+      <Filter>RYL Old Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUITooltipItem.h">
+      <Filter>RYL Old Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUITooltipManager.h">
+      <Filter>RYL Old Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIWindow.h">
+      <Filter>RYL Old Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HumanStoneStatueRespawn.h">
+      <Filter>RYL Old Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillNode.h">
+      <Filter>RYL Old Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillSystem.h">
+      <Filter>RYL Old Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringFilter.h">
+      <Filter>RYL Old Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc\NPCBaseDefine.h">
+      <Filter>RYL Old Files\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Npc\NPCList.h">
+      <Filter>RYL Old Files\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiHack.h">
+      <Filter>Script &amp; Library</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugUtils.h">
+      <Filter>Script &amp; Library</Filter>
+    </ClInclude>
+    <ClInclude Include="ijl.h">
+      <Filter>Script &amp; Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5\global.h">
+      <Filter>Script &amp; Library\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5\md5.h">
+      <Filter>Script &amp; Library\MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFirewall\MyFirewall.h">
+      <Filter>Script &amp; Library\MyFirewall</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLClientMain.h">
+      <Filter>RYL Client Files\RYL Game Time Files\RYL Client Main Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCommunityData.h">
+      <Filter>RYL Client Files\RYL Game Time Files\RYL Client Main Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLGameData.h">
+      <Filter>RYL Client Files\RYL Game Time Files\RYL Client Main Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLNetWorkData.h">
+      <Filter>RYL Client Files\RYL Game Time Files\RYL Client Main Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLRaceBase.h">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLRaceBaseDefine.h">
+      <Filter>RYL Client Files\RYL Character Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLSceneManager.h">
+      <Filter>RYL Client Files\RYL Scene Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLSceneObject.h">
+      <Filter>RYL Client Files\RYL Scene Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLIntroScene.h">
+      <Filter>RYL Client Files\RYL Scene Files\Intro Scene Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLRaceSelectScene.h">
+      <Filter>RYL Client Files\RYL Scene Files\Race Select Scene Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCharacterSelectScene.h">
+      <Filter>RYL Client Files\RYL Scene Files\Character Select Scene Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCharacterCreationDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Character Select Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCharacterDeleteDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Character Select Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCharacterInfoDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Character Select Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLNationDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Character Select Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLNationSelectDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Character Select Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLChannelDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Character Select Scene Files\Dialog Files\Channel Window</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLLoadingScene.h">
+      <Filter>RYL Client Files\RYL Scene Files\Loading Scene Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLGameScene.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLArmsHPDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLBlacksmithDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLGMReportDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RylGuildWarPenaltyDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLJoystickConfigureDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLJoystickConfigurePanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLSiegeTimeDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLStatusAndQuestFrameDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLStatusFrameDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCharacterInfoPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCompleteQuestPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLExecutionQuestPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLStatusInfoPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLStatusPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLQuestDetailDataDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLQuestOpeningDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLRankingDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Status and Quest Frame Dialogs\Sub Panel\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLSocietyFrameDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Society Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLFriendPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Society Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLMiniPartyDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Society Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLPartyFindPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Society Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLPartyPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Society Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLRefusalPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Society Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLAuthoritySettingDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLGuildBoardPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLGuildFrameDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLGuildInfoPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLGuildMemberPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLGuildPropertyPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLGuildTacticsPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLBitmap.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLGeneralGuildPopup.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLGuildMarkDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLHostilityDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLProposalGuildPopup.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Guild Frame Dialogs\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLHumanInventoryFrameDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLAbilityPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLAkhanInventoryPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLHumanInventoryPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLInventoryPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLItemCompositionDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLItemReparationDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLSkillPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLSocialActionPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLTempInventoryDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemInstance.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Old Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemStorage.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Inventory Frame Dialogs\Old Code Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLNewTradeDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Trade Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLChattingDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Chatting Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLBattleGroundDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLExchangeDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Exchange Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLJobChangeDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\JobExchange Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLSystemDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\System Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLOptionDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\System Dialogs\OptionDlg</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLEffectOptionPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\System Dialogs\OptionDlg\SubPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLGeneralOptionPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\System Dialogs\OptionDlg\SubPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLSoundOptionPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\System Dialogs\OptionDlg\SubPanel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLVaultDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Vault Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLVaultPasswordDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Vault Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLStallDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\StreetStall Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLStreetStallDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\StreetStall Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLSummonDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Summon Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\battleground client\BattleGroundPrevResultDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Result Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\battleground client\BattleGroundResultDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Result Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\battleground client\BattleGroundGameStatusDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Status Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\battleground client\BattleGroundStatusDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Status Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\battleground client\BattleGroundChangeMoneyDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\BattleGround Change Money Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCastleDoorblockDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\CastleDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLArmsCreatMenuDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Siege Arms</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLSiegeArmsCreatingDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Siege Arms</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCampChangeDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCampCreatingDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCampRepairDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCampRightDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCampShopDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCampShowTaxInfoDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCampUpgradeDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLMiningAmountDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLMiningAmountProcessDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLMiningCampDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLWorldWeaponLaunchDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLWorldWeaponLoadDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Camp</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCastleEmblemRightDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLEmblemUpgradeDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCastleStatusFrameDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle\Castle Status</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCastleMineralDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle\Castle Status\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCastleStatusPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle\Castle Status\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLTaxCollectPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle\Castle Status\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLTaxControlPanel.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Siege Dialogs\Castle\Castle Status\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLBattleWaitDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Respawn Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLRespawnDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Respawn Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLChangeNameDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\ChangeName Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLDialogControlDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLEnchantDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLMiniMapDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLQuickSlotDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLStatusDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLStatusRetrainDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLLargeMapFrameDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Large Map Frame Window</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLLargeMapCampDistributeDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Large Map Frame Window\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLLargeMapDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Large Map Frame Window\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLLargeMapMobDistributeDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Large Map Frame Window\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLStatusExtensionSlotOne.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Status Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLStatusExtensionSlotTwo.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Status Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLAbilityDescDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Skill Tooltip</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLSkillDescDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Skill Tooltip</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLSkillScriptMgr.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Skill Tooltip</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLHelpFrameDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Help Frame Window</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLHelpControlDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Game Scene Files\Dialog Files\Main Frame Dialogs\Help Frame Window\Sub Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLLoginScene.h">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLAgreeDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLLoginDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLPCCheckAgreementDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLIntegServerSelCharDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files\Unified Korea</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLIntegServerSelVaultDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files\Unified Korea</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLPartChoiceDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files\Unified Korea</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLPasswordReAuthDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files\Unified Korea</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLSelectedConfirmDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files\Unified Korea</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLChinaUnifiedServerSelCharDlg.h">
+      <Filter>RYL Client Files\RYL Scene Files\Login Scene Files\Dialog Files\Unified China</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLProfile.h">
+      <Filter>RYL Client Files\RYL Utility Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLSprite.h">
+      <Filter>RYL Client Files\RYL Utility Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLStringTable.h">
+      <Filter>RYL Client Files\RYL Utility Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLTimer.h">
+      <Filter>RYL Client Files\RYL Utility Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCamp.h">
+      <Filter>RYL Client Files\RYL Castle Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCampManager.h">
+      <Filter>RYL Client Files\RYL Castle Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCastle.h">
+      <Filter>RYL Client Files\RYL Castle Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLCastleManager.h">
+      <Filter>RYL Client Files\RYL Castle Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLGameTimeManager.h">
+      <Filter>RYL Client Files\RYL Game Time Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\RYLNoticeManager.h">
+      <Filter>RYL Client Files\RYL Notice Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLClient\DailyLoginRewardSystem.h" />
+    <ClInclude Include="RYLClient\LoginRewardIntegration.h" />
+    <ClInclude Include="RYLClient\GUIDailyLoginPanel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Rylui\GMUIObject.inl">
+      <Filter>RYL UserInterface Files\Gama UI Files\Custom Control Files</Filter>
+    </None>
+    <None Include="attack.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="communication.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="default.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="move.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="pickup.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="popup.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="repair.cur">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="tooltip.cur">
+      <Filter>RYL Old Files</Filter>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script3.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="MyFirewall\MyFireWallMT.lib">
+      <Filter>Script &amp; Library\MyFirewall</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

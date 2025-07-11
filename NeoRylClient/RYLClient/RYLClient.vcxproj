@@ -1,0 +1,836 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug_MY|Win32">
+      <Configuration>Debug_MY</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_MY|Win32">
+      <Configuration>Release_MY</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release_NoGD|Win32">
+      <Configuration>Release_NoGD</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>NeoRylClient</ProjectName>
+    <ProjectGuid>{4A8F2392-F16B-40D5-9A4A-4738B39C98C6}</ProjectGuid>
+    <RootNamespace>NeoRylClient</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../Game\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../Game\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">../../../../../Game\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">../../../../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">../../../../../Game\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">../../../../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">../../../../../Game\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">../../../../../Intermediate/$(ProjectName)/$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">true</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</EmbedManifest>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IncludePath);E:\Ring Of War\ServerRelated\Latest\Client\dxx8\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\Ring Of War\ServerRelated\Latest\Client\dxx8\lib;$(LibraryPath)</LibraryPath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Client</TargetName>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">$(IncludePath);../../dxx8\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">../../dxx8\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">$(IncludePath);../../dxx8\include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IncludePath);../../../Library\DX8\include;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">$(IncludePath);../../dxx8\include;$(IncludePath)</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">../../dxx8\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../Library\DX8\lib;$(LibraryPath)</LibraryPath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">../../dxx8\lib;$(LibraryPath)</LibraryPath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">Client</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Client</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">Client</TargetName>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">Client</TargetName>
+    <ExecutablePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ExecutablePath)</ExecutablePath>
+    <ReferencePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ReferencePath)</ReferencePath>
+    <SourcePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SourcePath)</SourcePath>
+    <ExcludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(ExcludePath)</ExcludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;../;../Engine/zalla3d base class;../Engine/zalla3d scene class;../Engine/SoundLib;../Engine/Effect;../Engine/Caldron;../ScriptEngine;../GlobalScript;../CharacterActionControl;./RYLUI;./RYLClient;./EventHandler;../MemoryManager;../Engine/CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;DEBUG;_DEBUG;_WINDOWS;_RYL_LANGUAGE;_USE_32BIT_TIME_T;USE_STATIC;NO_GAMEGUARD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <Optimization>Disabled</Optimization>
+      <DisableSpecificWarnings>4819;4996;4482;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;dsound.lib;eaxguid.lib;d3d8.lib;d3dx8.lib;dxguid.lib;dinput8.lib;shlwapi.lib;ole32.lib;wbemuuid.lib;winmm.lib;dxerr8.lib;odbc32.lib;odbccp32.lib;iphlpapi.lib;ijl15.lib;imm32.lib;../Engine/SoundLib/vorbis_sdk/lib/ogg_static_d.lib;../Engine/SoundLib/vorbis_sdk/lib/vorbis_static_d.lib;../Engine/SoundLib/vorbis_sdk/lib/vorbisfile_static_d.lib;luad.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../Game\Client.exe</OutputFile>
+      <AdditionalLibraryDirectories>../Engine/SoundLib/vorbis_sdk/lib;../../../Library/Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Client.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>
+      </StackReserveSize>
+      <TargetMachine>MachineX86</TargetMachine>
+      <EnableUAC>false</EnableUAC>
+      <UACExecutionLevel>HighestAvailable</UACExecutionLevel>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;../;../Engine/zalla3d base class;../Engine/zalla3d scene class;../Engine/SoundLib;../Engine/Effect;../Engine/Caldron;../ScriptEngine;../GlobalScript;../CharacterActionControl;./RYLUI;./RYLClient;./EventHandler;../MemoryManager;../Engine/CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;NO_GAMEGUARD;_RYL_GAME_CLIENT_;_RYL_LANGUAGE;</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <OpenMPSupport>true</OpenMPSupport>
+      <DisableSpecificWarnings>4996;4819;4482</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;dsound.lib;eaxguid.lib;d3d8.lib;d3dx8.lib;dxguid.lib;dinput8.lib;shlwapi.lib;ole32.lib;wbemuuid.lib;winmm.lib;dxerr8.lib;odbc32.lib;odbccp32.lib;iphlpapi.lib;ijl15.lib;imm32.lib;lua.lib;../Engine/SoundLib/vorbis_sdk/lib/ogg_static.lib;../Engine/SoundLib/vorbis_sdk/lib/vorbis_static.lib;../Engine/SoundLib/vorbis_sdk/lib/vorbisfile_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>E:\Ring Of War\BUILDCLIENT\Client.exe</OutputFile>
+      <AdditionalLibraryDirectories>../Engine/SoundLib/vorbis_sdk/lib;../../../Library/Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>D:\Ring Of War code\BUILDCLIENT\Client.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ManifestFile>Client.exe.manifest</ManifestFile>
+      <IgnoreSpecificDefaultLibraries>LIBCMT.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoGD|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;../;../../Engine/zalla3d base class;../../Engine/zalla3d scene class;../../Engine/SoundLib;../../Engine/Effect;../../Engine/Caldron;../ScriptEngine;../GlobalScript;../CharacterActionControl;./RYLUI;./RYLClient;./EventHandler;../../MemoryManager;../../Engine/CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_RYL_GAME_CLIENT_;NO_GAMEGUARD;_RYL_LANGUAGE;_RYL_TEST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;dsound.lib;eaxguid.lib;d3d8.lib;d3dx8.lib;dxguid.lib;dinput8.lib;shlwapi.lib;ole32.lib;wbemuuid.lib;winmm.lib;dxerr8.lib;odbc32.lib;odbccp32.lib;iphlpapi.lib;ijl15.lib;imm32.lib;lua.lib;../../Engine/SoundLib/vorbis_sdk/lib/ogg_static.lib;../../Engine/SoundLib/vorbis_sdk/lib/vorbis_static.lib;../../Engine/SoundLib/vorbis_sdk/lib/vorbisfile_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../../../Game\Client.exe</OutputFile>
+      <AdditionalLibraryDirectories>../../Engine/SoundLib/vorbis_sdk/lib;../../../../..\Library\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>LIBCMT;LIBCMTD;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Client.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <ManifestFile>Client.exe.manifest</ManifestFile>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <ProjectReference>
+      <UseLibraryDependencyInputs>true</UseLibraryDependencyInputs>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release_MY|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>./;../;../../Engine/zalla3d base class;../../Engine/zalla3d scene class;../../Engine/SoundLib;../../Engine/Effect;../../Engine/Caldron;../ScriptEngine;../GlobalScript;../CharacterActionControl;./RYLUI;./RYLClient;./EventHandler;../../MemoryManager;../../Engine/CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_RYL_GAME_CLIENT_;NO_GAMEGUARD;ON_HACKSHIELD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;dsound.lib;eaxguid.lib;d3d8.lib;d3dx8.lib;shlwapi.lib;ole32.lib;wbemuuid.lib;winmm.lib;dxguid.lib;dxerr8.lib;dinput8.lib;odbc32.lib;odbccp32.lib;iphlpapi.lib;ijl15.lib;imm32.lib;../../Engine/SoundLib/vorbis_sdk/lib/ogg_static.lib;../../Engine/SoundLib/vorbis_sdk/lib/vorbis_static.lib;../../Engine/SoundLib/vorbis_sdk/lib/vorbisfile_static.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../../../Game\Client.exe</OutputFile>
+      <AdditionalLibraryDirectories>../../Engine/SoundLib/vorbis_sdk/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Client.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug_MY|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>./;../;../../Engine/zalla3d base class;../../Engine/zalla3d scene class;../../Engine/SoundLib;../../Engine/Effect;../../Engine/Caldron;../ScriptEngine;../GlobalScript;../CharacterActionControl;./RYLUI;./RYLClient;./EventHandler;../../MemoryManager;../../Engine/CrossM/Include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_RYL_GAME_CLIENT_;DEBUG;_PACKET_PROFILE_;NO_GAMEGUARD;_RYL_TEST;ON_HACKSHIELD;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>ws2_32.lib;dsound.lib;eaxguid.lib;d3d8.lib;d3dx8.lib;dxguid.lib;dinput8.lib;shlwapi.lib;ole32.lib;wbemuuid.lib;winmm.lib;dxerr8.lib;odbc32.lib;odbccp32.lib;iphlpapi.lib;ijl15.lib;imm32.lib;../../Engine/SoundLib/vorbis_sdk/lib/ogg_static_d.lib;../../Engine/SoundLib/vorbis_sdk/lib/vorbis_static_d.lib;../../Engine/SoundLib/vorbis_sdk/lib/vorbisfile_static_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>../../../../../Game\Client.exe</OutputFile>
+      <AdditionalLibraryDirectories>../../Engine/SoundLib/vorbis_sdk/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)Client.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <StackReserveSize>2097152</StackReserveSize>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="EventHandler\AuthHandler.cpp" />
+    <ClCompile Include="EventHandler\GameHandler.cpp" />
+    <ClCompile Include="EventHandler\LogFunctions.cpp" />
+    <ClCompile Include="EventHandler\GameProcess\BattleGroundClientProcess.cpp" />
+    <ClCompile Include="EventHandler\GameProcess\BroadcastProcess.cpp" />
+    <ClCompile Include="EventHandler\GameProcess\CastleProcess.cpp" />
+    <ClCompile Include="EventHandler\GameProcess\CharInfoProcess.cpp" />
+    <ClCompile Include="EventHandler\GameProcess\ChatProcess.cpp" />
+    <ClCompile Include="EventHandler\GameProcess\CommunityProcess.cpp" />
+    <ClCompile Include="EventHandler\GameProcess\EtcProcess.cpp" />
+    <ClCompile Include="EventHandler\GameProcess\FightProcess.cpp" />
+    <ClCompile Include="EventHandler\GameProcess\ItemProcess.cpp" />
+    <ClCompile Include="EventHandler\GameProcess\LoginoutProcess.cpp" />
+    <ClCompile Include="EventHandler\GameProcess\MoveProcess.cpp" />
+    <ClCompile Include="EventHandler\GameProcess\QuestProcess.cpp" />
+    <ClCompile Include="EventHandler\GameProcess\SkillProcess.cpp" />
+    <ClCompile Include="RYLClient\GUIDailyLoginPanel.cpp" />
+    <ClCompile Include="Rylui\GMUIMain.cpp" />
+    <ClCompile Include="Rylui\GMObject.cpp" />
+    <ClCompile Include="Rylui\GMUIScreen.cpp" />
+    <ClCompile Include="Rylui\GMUICustomButton.cpp" />
+    <ClCompile Include="Rylui\GMUICustomCheckBox.cpp" />
+    <ClCompile Include="Rylui\GMUICustomComboBox.cpp" />
+    <ClCompile Include="Rylui\GMUICustomDlg.cpp" />
+    <ClCompile Include="Rylui\GMUICustomEdit.cpp" />
+    <ClCompile Include="Rylui\GMUICustomIMEView.cpp" />
+    <ClCompile Include="Rylui\GMUICustomLabel.cpp" />
+    <ClCompile Include="Rylui\GMUICustomListBox.cpp" />
+    <ClCompile Include="Rylui\GMUICustomMenu.cpp" />
+    <ClCompile Include="Rylui\GMUICustomPanel.cpp" />
+    <ClCompile Include="Rylui\GMUICustomTabButton.cpp" />
+    <ClCompile Include="Rylui\GMUIObject.cpp" />
+    <ClCompile Include="Rylui\GMFont.cpp" />
+    <ClCompile Include="Rylui\GMFontTexture.cpp" />
+    <ClCompile Include="Rylui\RYLFontTexture.cpp" />
+    <ClCompile Include="Rylui\GMUIButton.cpp" />
+    <ClCompile Include="Rylui\GMUICaptionButton.cpp" />
+    <ClCompile Include="Rylui\GMUICheckBox.cpp" />
+    <ClCompile Include="Rylui\GMUIComboBox.cpp" />
+    <ClCompile Include="Rylui\GMUILabel.cpp" />
+    <ClCompile Include="Rylui\GMUIListBox.cpp" />
+    <ClCompile Include="Rylui\GMUITabButton.cpp" />
+    <ClCompile Include="Rylui\Ime\GMIMEPACK.cpp" />
+    <ClCompile Include="Rylui\GMUITooltip.cpp" />
+    <ClCompile Include="Rylui\GMUITooltipBox.cpp" />
+    <ClCompile Include="Rylui\GMUITooltipManager.cpp" />
+    <ClCompile Include="Rylui\RYLMessageBox.cpp" />
+    <ClCompile Include="Rylui\RYLMessageBoxManager.cpp" />
+    <ClCompile Include="Rylui\GMBase.cpp" />
+    <ClCompile Include="Rylui\GMFileUtil.cpp" />
+    <ClCompile Include="Rylui\GMList.cpp" />
+    <ClCompile Include="Rylui\GMStream.cpp" />
+    <ClCompile Include="Rylui\GMString.cpp" />
+    <ClCompile Include="Rylui\GMUIUtil.cpp" />
+    <ClCompile Include="Rylui\GMImage.cpp" />
+    <ClCompile Include="Rylui\GMImageBitmap.cpp" />
+    <ClCompile Include="Rylui\GMImageDib.cpp" />
+    <ClCompile Include="Rylui\GMImageTarga.cpp" />
+    <ClCompile Include="Rylui\RYLAnimationButton.cpp" />
+    <ClCompile Include="Rylui\RYLButton.cpp" />
+    <ClCompile Include="Rylui\RYLCheckBox.cpp" />
+    <ClCompile Include="Rylui\RYLComboBox.cpp" />
+    <ClCompile Include="Rylui\RYLDialog.cpp" />
+    <ClCompile Include="Rylui\RYLEdit.cpp" />
+    <ClCompile Include="Rylui\RYLGridLabel.cpp" />
+    <ClCompile Include="Rylui\RYLIMEView.cpp" />
+    <ClCompile Include="Rylui\RYLLabel.cpp" />
+    <ClCompile Include="Rylui\RYLListBox.cpp" />
+    <ClCompile Include="Rylui\RYLPicture.cpp" />
+    <ClCompile Include="Rylui\RYLProgressBar.cpp" />
+    <ClCompile Include="Rylui\RYLSpriteEX.cpp" />
+    <ClCompile Include="Rylui\RYLStringGrid.cpp" />
+    <ClCompile Include="Rylui\RYLTabButton.cpp" />
+    <ClCompile Include="Rylui\GMTexture.cpp" />
+    <ClCompile Include="Rylui\RYLFormatList.cpp" />
+    <ClCompile Include="Rylui\RYLImage.cpp" />
+    <ClCompile Include="Rylui\RYLImageCabinet.cpp" />
+    <ClCompile Include="Rylui\RYLImageManager.cpp" />
+    <ClCompile Include="Rylui\RYLRectangle.cpp" />
+    <ClCompile Include="Rylui\RYLSpriteList.cpp" />
+    <ClCompile Include="Rylui\RYLTexture.cpp" />
+    <ClCompile Include="Rylui\RYLTextureList.cpp" />
+    <ClCompile Include="Rylui\RYLTextureManager.cpp" />
+    <ClCompile Include="CharStatus.cpp" />
+    <ClCompile Include="GUITextEdit.cpp" />
+    <ClCompile Include="GUITooltip.cpp" />
+    <ClCompile Include="GUITooltipButton.cpp" />
+    <ClCompile Include="GUITooltipItem.cpp" />
+    <ClCompile Include="GUITooltipManager.cpp" />
+    <ClCompile Include="GUIWindow.cpp" />
+    <ClCompile Include="HumanStoneStatueRespawn.cpp" />
+    <ClCompile Include="SkillNode.cpp" />
+    <ClCompile Include="SkillSystem.cpp" />
+    <ClCompile Include="StringFilter.cpp" />
+    <ClCompile Include="Npc\NPCList.cpp" />
+    <ClCompile Include="DebugUtils.cpp" />
+    <ClCompile Include="Md5\md5c.c" />
+    <ClCompile Include="RYLClient\RYLClientMain.cpp" />
+    <ClCompile Include="RYLClient\RYLCommunityData.cpp" />
+    <ClCompile Include="RYLClient\RYLGameData.cpp" />
+    <ClCompile Include="RYLClient\RYLNetWorkData.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceBase.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceInit.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceInitNPCPopup.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceInitSiegePopup.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceNPC.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceRender.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceRenderCreature.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceRenderFight.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceRenderUI.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceSiege.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceUpdate.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceUpdateAccelerator.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceUpdateFight.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceUpdateUI.cpp" />
+    <ClCompile Include="RYLClient\RYLSceneManager.cpp" />
+    <ClCompile Include="RYLClient\RYLSceneObject.cpp" />
+    <ClCompile Include="RYLClient\RYLIntroScene.cpp" />
+    <ClCompile Include="RYLClient\RYLRaceSelectScene.cpp" />
+    <ClCompile Include="RYLClient\RYLCharacterSelectScene.cpp" />
+    <ClCompile Include="RYLClient\RYLCharacterCreationDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCharacterDeleteDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCharacterInfoDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLNationDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLNationSelectDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLChannelDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLLoadingScene.cpp" />
+    <ClCompile Include="RYLClient\RYLGameScene.cpp" />
+    <ClCompile Include="RYLClient\RYLArmsHPDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLBlacksmithDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLGMReportDlg.cpp" />
+    <ClCompile Include="RYLClient\RylGuildWarPenaltyDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLJoystickConfigureDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLJoystickConfigurePanel.cpp" />
+    <ClCompile Include="RYLClient\RYLSiegeTimeDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLStatusAndQuestFrameDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLStatusFrameDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCharacterInfoPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLCompleteQuestPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLExecutionQuestPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLStatusInfoPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLStatusPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLQuestDetailDataDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLQuestOpeningDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLRankingDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLSocietyFrameDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLFriendPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLMiniPartyDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLPartyFindPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLPartyPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLRefusalPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLAuthoritySettingDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLGuildBoardPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLGuildFrameDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLGuildInfoPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLGuildMemberPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLGuildPropertyPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLGuildTacticsPanel.cpp" />
+    <ClCompile Include="RYLBitmap.cpp" />
+    <ClCompile Include="RYLClient\RYLGeneralGuildPopup.cpp" />
+    <ClCompile Include="RYLClient\RYLGuildMarkDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLHostilityDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLProposalGuildPopup.cpp" />
+    <ClCompile Include="RYLClient\RYLHumanInventoryFrameDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLAbilityPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLAkhanInventoryPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLHumanInventoryPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLInventoryPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLItemCompositionDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLItemReparationDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLSkillPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLSocialActionPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLTempInventoryDlg.cpp" />
+    <ClCompile Include="ItemInstance.cpp" />
+    <ClCompile Include="ItemStorage.cpp" />
+    <ClCompile Include="RYLClient\RYLNewTradeDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLChattingDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLBattleGroundDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLExchangeDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLJobChangeDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLSystemDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLOptionDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLEffectOptionPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLGeneralOptionPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLSoundOptionPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLVaultDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLVaultPasswordDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLStallDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLStreetStallDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLSummonDlg.cpp" />
+    <ClCompile Include="RYLClient\battleground client\BattleGroundPrevResultDlg.cpp" />
+    <ClCompile Include="RYLClient\battleground client\BattleGroundResultDlg.cpp" />
+    <ClCompile Include="RYLClient\battleground client\BattleGroundGameStatusDlg.cpp" />
+    <ClCompile Include="RYLClient\battleground client\BattleGroundStatusDlg.cpp" />
+    <ClCompile Include="RYLClient\battleground client\BattleGroundChangeMoneyDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCastleDoorblockDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLArmsCreatMenuDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLSiegeArmsCreatingDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCampChangeDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCampCreatingDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCampRepairDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCampRightDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCampShopDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCampShowTaxInfoDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCampUpgradeDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLMiningAmountDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLMiningAmountProcessDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLMiningCampDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLWorldWeaponLaunchDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLWorldWeaponLoadDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCastleEmblemRightDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLEmblemUpgradeDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCastleStatusFrameDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCastleMineralDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLCastleStatusPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLTaxCollectPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLTaxControlPanel.cpp" />
+    <ClCompile Include="RYLClient\RYLBattleWaitDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLRespawnDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLChangeNameDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLDialogControlDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLEnchantDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLMiniMapDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLQuickSlotDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLStatusDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLStatusRetrainDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLLargeMapFrameDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLLargeMapCampDistributeDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLLargeMapDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLLargeMapMobDistributeDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLStatusExtensionSlotOne.cpp" />
+    <ClCompile Include="RYLClient\RYLStatusExtensionSlotTwo.cpp" />
+    <ClCompile Include="RYLClient\RYLAbilityDescDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLSkillDescDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLSkillScriptMgr.cpp" />
+    <ClCompile Include="RYLClient\RYLHelpFrameDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLHelpControlDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLLoginScene.cpp" />
+    <ClCompile Include="RYLClient\RYLAgreeDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLLoginDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLPCCheckAgreementDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLIntegServerSelCharDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLIntegServerSelVaultDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLPartChoiceDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLPasswordReAuthDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLSelectedConfirmDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLChinaUnifiedServerSelCharDlg.cpp" />
+    <ClCompile Include="RYLClient\RYLProfile.cpp" />
+    <ClCompile Include="RYLClient\RYLSprite.cpp" />
+    <ClCompile Include="RYLClient\RYLStringTable.cpp" />
+    <ClCompile Include="RYLClient\RYLTimer.cpp" />
+    <ClCompile Include="RYLClient\RYLCamp.cpp" />
+    <ClCompile Include="RYLClient\RYLCampManager.cpp" />
+    <ClCompile Include="RYLClient\RYLCastle.cpp" />
+    <ClCompile Include="RYLClient\RYLCastleManager.cpp" />
+    <ClCompile Include="RYLClient\RYLGameTimeManager.cpp" />
+    <ClCompile Include="RYLClient\RYLNoticeManager.cpp" />
+    <ClCompile Include="RYLClient\DailyLoginRewardSystem.cpp" />
+    <ClCompile Include="RYLClient\LoginRewardIntegration.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EventHandler\AuthHandler.h" />
+    <ClInclude Include="EventHandler\GameHandler.h" />
+    <ClInclude Include="EventHandler\LogFunctions.h" />
+    <ClInclude Include="EventHandler\GameProcess\BattleGroundClientProcess.h" />
+    <ClInclude Include="EventHandler\GameProcess\BroadcastProcess.h" />
+    <ClInclude Include="EventHandler\GameProcess\CastleProcess.h" />
+    <ClInclude Include="EventHandler\GameProcess\CharInfoProcess.h" />
+    <ClInclude Include="EventHandler\GameProcess\ChatProcess.h" />
+    <ClInclude Include="EventHandler\GameProcess\CommunityProcess.h" />
+    <ClInclude Include="EventHandler\GameProcess\EtcProcess.h" />
+    <ClInclude Include="EventHandler\GameProcess\FightProcess.h" />
+    <ClInclude Include="EventHandler\GameProcess\ItemProcess.h" />
+    <ClInclude Include="EventHandler\GameProcess\LoginoutProcess.h" />
+    <ClInclude Include="EventHandler\GameProcess\MoveProcess.h" />
+    <ClInclude Include="EventHandler\GameProcess\QuestProcess.h" />
+    <ClInclude Include="EventHandler\GameProcess\SkillProcess.h" />
+    <ClInclude Include="RYLClient\GUIDailyLoginPanel.h" />
+    <ClInclude Include="Rylui\GMUIMain.h" />
+    <ClInclude Include="Rylui\GMObject.h" />
+    <ClInclude Include="Rylui\GMObjectDef.h" />
+    <ClInclude Include="Rylui\GMUIScreen.h" />
+    <ClInclude Include="Rylui\GMUICustomButton.h" />
+    <ClInclude Include="Rylui\GMUICustomCheckBox.h" />
+    <ClInclude Include="Rylui\GMUICustomComboBox.h" />
+    <ClInclude Include="Rylui\GMUICustomDlg.h" />
+    <ClInclude Include="Rylui\GMUICustomEdit.h" />
+    <ClInclude Include="Rylui\GMUICustomIMEView.h" />
+    <ClInclude Include="Rylui\GMUICustomLabel.h" />
+    <ClInclude Include="Rylui\GMUICustomListBox.h" />
+    <ClInclude Include="Rylui\GMUICustomMenu.h" />
+    <ClInclude Include="Rylui\GMUICustomPanel.h" />
+    <ClInclude Include="Rylui\GMUICustomTabButton.h" />
+    <ClInclude Include="Rylui\GMUIObject.h" />
+    <ClInclude Include="Rylui\GMFont.h" />
+    <ClInclude Include="Rylui\GMFontTexture.h" />
+    <ClInclude Include="Rylui\RYLFontTexture.h" />
+    <ClInclude Include="Rylui\GMUIButton.h" />
+    <ClInclude Include="Rylui\GMUICaptionButton.h" />
+    <ClInclude Include="Rylui\GMUICheckBox.h" />
+    <ClInclude Include="Rylui\GMUIComboBox.h" />
+    <ClInclude Include="Rylui\GMUILabel.h" />
+    <ClInclude Include="Rylui\GMUIListBox.h" />
+    <ClInclude Include="Rylui\GMUITabButton.h" />
+    <ClInclude Include="Rylui\Ime\GMIMEPACK.h" />
+    <ClInclude Include="Rylui\Ime\ImeConstant.h" />
+    <ClInclude Include="Rylui\GMUITooltip.h" />
+    <ClInclude Include="Rylui\GMUITooltipBox.h" />
+    <ClInclude Include="Rylui\GMUITooltipManager.h" />
+    <ClInclude Include="Rylui\RYLMessageBox.h" />
+    <ClInclude Include="Rylui\RYLMessageBoxManager.h" />
+    <ClInclude Include="Rylui\GMBase.h" />
+    <ClInclude Include="Rylui\GMFileUtil.h" />
+    <ClInclude Include="Rylui\GMList.h" />
+    <ClInclude Include="Rylui\GMStream.h" />
+    <ClInclude Include="Rylui\GMString.h" />
+    <ClInclude Include="Rylui\GMUIUtil.h" />
+    <ClInclude Include="Rylui\GMImage.h" />
+    <ClInclude Include="Rylui\GMImageBitmap.h" />
+    <ClInclude Include="Rylui\GMImageDib.h" />
+    <ClInclude Include="Rylui\GMImageTarga.h" />
+    <ClInclude Include="Rylui\RYLAnimationButton.h" />
+    <ClInclude Include="Rylui\RYLButton.h" />
+    <ClInclude Include="Rylui\RYLCheckBox.h" />
+    <ClInclude Include="Rylui\RYLComboBox.h" />
+    <ClInclude Include="Rylui\RYLDialog.h" />
+    <ClInclude Include="Rylui\RYLEdit.h" />
+    <ClInclude Include="Rylui\RYLGridLabel.h" />
+    <ClInclude Include="Rylui\RYLIMEView.h" />
+    <ClInclude Include="Rylui\RYLLabel.h" />
+    <ClInclude Include="Rylui\RYLListBox.h" />
+    <ClInclude Include="Rylui\RYLPicture.h" />
+    <ClInclude Include="Rylui\RYLProgressBar.h" />
+    <ClInclude Include="Rylui\RYLSpriteEX.h" />
+    <ClInclude Include="Rylui\RYLStringGrid.h" />
+    <ClInclude Include="Rylui\RYLTabButton.h" />
+    <ClInclude Include="Rylui\GMTexture.h" />
+    <ClInclude Include="Rylui\RYLFormatList.h" />
+    <ClInclude Include="Rylui\RYLImage.h" />
+    <ClInclude Include="Rylui\RYLImageCabinet.h" />
+    <ClInclude Include="Rylui\RYLImageManager.h" />
+    <ClInclude Include="Rylui\RYLRectangle.h" />
+    <ClInclude Include="Rylui\RYLSpriteList.h" />
+    <ClInclude Include="Rylui\RYLTexture.h" />
+    <ClInclude Include="Rylui\RYLTextureList.h" />
+    <ClInclude Include="Rylui\RYLTextureManager.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="CharStatus.h" />
+    <ClInclude Include="DataTable.h" />
+    <ClInclude Include="GUITextEdit.h" />
+    <ClInclude Include="GUITooltip.h" />
+    <ClInclude Include="GUITooltipButton.h" />
+    <ClInclude Include="GUITooltipItem.h" />
+    <ClInclude Include="GUITooltipManager.h" />
+    <ClInclude Include="GUIWindow.h" />
+    <ClInclude Include="HumanStoneStatueRespawn.h" />
+    <ClInclude Include="SkillNode.h" />
+    <ClInclude Include="SkillSystem.h" />
+    <ClInclude Include="StringFilter.h" />
+    <ClInclude Include="Npc\NPCBaseDefine.h" />
+    <ClInclude Include="Npc\NPCList.h" />
+    <ClInclude Include="AntiHack.h" />
+    <ClInclude Include="DebugUtils.h" />
+    <ClInclude Include="ijl.h" />
+    <ClInclude Include="Md5\global.h" />
+    <ClInclude Include="Md5\md5.h" />
+    <ClInclude Include="MyFirewall\MyFirewall.h" />
+    <ClInclude Include="RYLClient\RYLClientMain.h" />
+    <ClInclude Include="RYLClient\RYLCommunityData.h" />
+    <ClInclude Include="RYLClient\RYLGameData.h" />
+    <ClInclude Include="RYLClient\RYLNetWorkData.h" />
+    <ClInclude Include="RYLClient\RYLRaceBase.h" />
+    <ClInclude Include="RYLClient\RYLRaceBaseDefine.h" />
+    <ClInclude Include="RYLClient\RYLSceneManager.h" />
+    <ClInclude Include="RYLClient\RYLSceneObject.h" />
+    <ClInclude Include="RYLClient\RYLIntroScene.h" />
+    <ClInclude Include="RYLClient\RYLRaceSelectScene.h" />
+    <ClInclude Include="RYLClient\RYLCharacterSelectScene.h" />
+    <ClInclude Include="RYLClient\RYLCharacterCreationDlg.h" />
+    <ClInclude Include="RYLClient\RYLCharacterDeleteDlg.h" />
+    <ClInclude Include="RYLClient\RYLCharacterInfoDlg.h" />
+    <ClInclude Include="RYLClient\RYLNationDlg.h" />
+    <ClInclude Include="RYLClient\RYLNationSelectDlg.h" />
+    <ClInclude Include="RYLClient\RYLChannelDlg.h" />
+    <ClInclude Include="RYLClient\RYLLoadingScene.h" />
+    <ClInclude Include="RYLClient\RYLGameScene.h" />
+    <ClInclude Include="RYLClient\RYLArmsHPDlg.h" />
+    <ClInclude Include="RYLClient\RYLBlacksmithDlg.h" />
+    <ClInclude Include="RYLClient\RYLGMReportDlg.h" />
+    <ClInclude Include="RYLClient\RylGuildWarPenaltyDlg.h" />
+    <ClInclude Include="RYLClient\RYLJoystickConfigureDlg.h" />
+    <ClInclude Include="RYLClient\RYLJoystickConfigurePanel.h" />
+    <ClInclude Include="RYLClient\RYLSiegeTimeDlg.h" />
+    <ClInclude Include="RYLClient\RYLStatusAndQuestFrameDlg.h" />
+    <ClInclude Include="RYLClient\RYLStatusFrameDlg.h" />
+    <ClInclude Include="RYLClient\RYLCharacterInfoPanel.h" />
+    <ClInclude Include="RYLClient\RYLCompleteQuestPanel.h" />
+    <ClInclude Include="RYLClient\RYLExecutionQuestPanel.h" />
+    <ClInclude Include="RYLClient\RYLStatusInfoPanel.h" />
+    <ClInclude Include="RYLClient\RYLStatusPanel.h" />
+    <ClInclude Include="RYLClient\RYLQuestDetailDataDlg.h" />
+    <ClInclude Include="RYLClient\RYLQuestOpeningDlg.h" />
+    <ClInclude Include="RYLClient\RYLRankingDlg.h" />
+    <ClInclude Include="RYLClient\RYLSocietyFrameDlg.h" />
+    <ClInclude Include="RYLClient\RYLFriendPanel.h" />
+    <ClInclude Include="RYLClient\RYLMiniPartyDlg.h" />
+    <ClInclude Include="RYLClient\RYLPartyFindPanel.h" />
+    <ClInclude Include="RYLClient\RYLPartyPanel.h" />
+    <ClInclude Include="RYLClient\RYLRefusalPanel.h" />
+    <ClInclude Include="RYLClient\RYLAuthoritySettingDlg.h" />
+    <ClInclude Include="RYLClient\RYLGuildBoardPanel.h" />
+    <ClInclude Include="RYLClient\RYLGuildFrameDlg.h" />
+    <ClInclude Include="RYLClient\RYLGuildInfoPanel.h" />
+    <ClInclude Include="RYLClient\RYLGuildMemberPanel.h" />
+    <ClInclude Include="RYLClient\RYLGuildPropertyPanel.h" />
+    <ClInclude Include="RYLClient\RYLGuildTacticsPanel.h" />
+    <ClInclude Include="RYLBitmap.h" />
+    <ClInclude Include="RYLClient\RYLGeneralGuildPopup.h" />
+    <ClInclude Include="RYLClient\RYLGuildMarkDlg.h" />
+    <ClInclude Include="RYLClient\RYLHostilityDlg.h" />
+    <ClInclude Include="RYLClient\RYLProposalGuildPopup.h" />
+    <ClInclude Include="RYLClient\RYLHumanInventoryFrameDlg.h" />
+    <ClInclude Include="RYLClient\RYLAbilityPanel.h" />
+    <ClInclude Include="RYLClient\RYLAkhanInventoryPanel.h" />
+    <ClInclude Include="RYLClient\RYLHumanInventoryPanel.h" />
+    <ClInclude Include="RYLClient\RYLInventoryPanel.h" />
+    <ClInclude Include="RYLClient\RYLItemCompositionDlg.h" />
+    <ClInclude Include="RYLClient\RYLItemReparationDlg.h" />
+    <ClInclude Include="RYLClient\RYLSkillPanel.h" />
+    <ClInclude Include="RYLClient\RYLSocialActionPanel.h" />
+    <ClInclude Include="RYLClient\RYLTempInventoryDlg.h" />
+    <ClInclude Include="ItemInstance.h" />
+    <ClInclude Include="ItemStorage.h" />
+    <ClInclude Include="RYLClient\RYLNewTradeDlg.h" />
+    <ClInclude Include="RYLClient\RYLChattingDlg.h" />
+    <ClInclude Include="RYLClient\RYLBattleGroundDlg.h" />
+    <ClInclude Include="RYLClient\RYLExchangeDlg.h" />
+    <ClInclude Include="RYLClient\RYLJobChangeDlg.h" />
+    <ClInclude Include="RYLClient\RYLSystemDlg.h" />
+    <ClInclude Include="RYLClient\RYLOptionDlg.h" />
+    <ClInclude Include="RYLClient\RYLEffectOptionPanel.h" />
+    <ClInclude Include="RYLClient\RYLGeneralOptionPanel.h" />
+    <ClInclude Include="RYLClient\RYLSoundOptionPanel.h" />
+    <ClInclude Include="RYLClient\RYLVaultDlg.h" />
+    <ClInclude Include="RYLClient\RYLVaultPasswordDlg.h" />
+    <ClInclude Include="RYLClient\RYLStallDlg.h" />
+    <ClInclude Include="RYLClient\RYLStreetStallDlg.h" />
+    <ClInclude Include="RYLClient\RYLSummonDlg.h" />
+    <ClInclude Include="RYLClient\battleground client\BattleGroundPrevResultDlg.h" />
+    <ClInclude Include="RYLClient\battleground client\BattleGroundResultDlg.h" />
+    <ClInclude Include="RYLClient\battleground client\BattleGroundGameStatusDlg.h" />
+    <ClInclude Include="RYLClient\battleground client\BattleGroundStatusDlg.h" />
+    <ClInclude Include="RYLClient\battleground client\BattleGroundChangeMoneyDlg.h" />
+    <ClInclude Include="RYLClient\RYLCastleDoorblockDlg.h" />
+    <ClInclude Include="RYLClient\RYLArmsCreatMenuDlg.h" />
+    <ClInclude Include="RYLClient\RYLSiegeArmsCreatingDlg.h" />
+    <ClInclude Include="RYLClient\RYLCampChangeDlg.h" />
+    <ClInclude Include="RYLClient\RYLCampCreatingDlg.h" />
+    <ClInclude Include="RYLClient\RYLCampRepairDlg.h" />
+    <ClInclude Include="RYLClient\RYLCampRightDlg.h" />
+    <ClInclude Include="RYLClient\RYLCampShopDlg.h" />
+    <ClInclude Include="RYLClient\RYLCampShowTaxInfoDlg.h" />
+    <ClInclude Include="RYLClient\RYLCampUpgradeDlg.h" />
+    <ClInclude Include="RYLClient\RYLMiningAmountDlg.h" />
+    <ClInclude Include="RYLClient\RYLMiningAmountProcessDlg.h" />
+    <ClInclude Include="RYLClient\RYLMiningCampDlg.h" />
+    <ClInclude Include="RYLClient\RYLWorldWeaponLaunchDlg.h" />
+    <ClInclude Include="RYLClient\RYLWorldWeaponLoadDlg.h" />
+    <ClInclude Include="RYLClient\RYLCastleEmblemRightDlg.h" />
+    <ClInclude Include="RYLClient\RYLEmblemUpgradeDlg.h" />
+    <ClInclude Include="RYLClient\RYLCastleStatusFrameDlg.h" />
+    <ClInclude Include="RYLClient\RYLCastleMineralDlg.h" />
+    <ClInclude Include="RYLClient\RYLCastleStatusPanel.h" />
+    <ClInclude Include="RYLClient\RYLTaxCollectPanel.h" />
+    <ClInclude Include="RYLClient\RYLTaxControlPanel.h" />
+    <ClInclude Include="RYLClient\RYLBattleWaitDlg.h" />
+    <ClInclude Include="RYLClient\RYLRespawnDlg.h" />
+    <ClInclude Include="RYLClient\RYLChangeNameDlg.h" />
+    <ClInclude Include="RYLClient\RYLDialogControlDlg.h" />
+    <ClInclude Include="RYLClient\RYLEnchantDlg.h" />
+    <ClInclude Include="RYLClient\RYLMiniMapDlg.h" />
+    <ClInclude Include="RYLClient\RYLQuickSlotDlg.h" />
+    <ClInclude Include="RYLClient\RYLStatusDlg.h" />
+    <ClInclude Include="RYLClient\RYLStatusRetrainDlg.h" />
+    <ClInclude Include="RYLClient\RYLLargeMapFrameDlg.h" />
+    <ClInclude Include="RYLClient\RYLLargeMapCampDistributeDlg.h" />
+    <ClInclude Include="RYLClient\RYLLargeMapDlg.h" />
+    <ClInclude Include="RYLClient\RYLLargeMapMobDistributeDlg.h" />
+    <ClInclude Include="RYLClient\RYLStatusExtensionSlotOne.h" />
+    <ClInclude Include="RYLClient\RYLStatusExtensionSlotTwo.h" />
+    <ClInclude Include="RYLClient\RYLAbilityDescDlg.h" />
+    <ClInclude Include="RYLClient\RYLSkillDescDlg.h" />
+    <ClInclude Include="RYLClient\RYLSkillScriptMgr.h" />
+    <ClInclude Include="RYLClient\RYLHelpFrameDlg.h" />
+    <ClInclude Include="RYLClient\RYLHelpControlDlg.h" />
+    <ClInclude Include="RYLClient\RYLLoginScene.h" />
+    <ClInclude Include="RYLClient\RYLAgreeDlg.h" />
+    <ClInclude Include="RYLClient\RYLLoginDlg.h" />
+    <ClInclude Include="RYLClient\RYLPCCheckAgreementDlg.h" />
+    <ClInclude Include="RYLClient\RYLIntegServerSelCharDlg.h" />
+    <ClInclude Include="RYLClient\RYLIntegServerSelVaultDlg.h" />
+    <ClInclude Include="RYLClient\RYLPartChoiceDlg.h" />
+    <ClInclude Include="RYLClient\RYLPasswordReAuthDlg.h" />
+    <ClInclude Include="RYLClient\RYLSelectedConfirmDlg.h" />
+    <ClInclude Include="RYLClient\RYLChinaUnifiedServerSelCharDlg.h" />
+    <ClInclude Include="RYLClient\RYLProfile.h" />
+    <ClInclude Include="RYLClient\RYLSprite.h" />
+    <ClInclude Include="RYLClient\RYLStringTable.h" />
+    <ClInclude Include="RYLClient\RYLTimer.h" />
+    <ClInclude Include="RYLClient\RYLCamp.h" />
+    <ClInclude Include="RYLClient\RYLCampManager.h" />
+    <ClInclude Include="RYLClient\RYLCastle.h" />
+    <ClInclude Include="RYLClient\RYLCastleManager.h" />
+    <ClInclude Include="RYLClient\RYLGameTimeManager.h" />
+    <ClInclude Include="RYLClient\RYLNoticeManager.h" />
+    <ClInclude Include="RYLClient\DailyLoginRewardSystem.h" />
+    <ClInclude Include="RYLClient\LoginRewardIntegration.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Rylui\GMUIObject.inl" />
+    <None Include="attack.cur" />
+    <None Include="communication.cur" />
+    <None Include="default.cur" />
+    <None Include="move.cur" />
+    <None Include="pickup.cur" />
+    <None Include="popup.cur" />
+    <None Include="repair.cur" />
+    <None Include="tooltip.cur" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Script3.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="MyFirewall\MyFireWallMT.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CharacterActionControl\CharacterActionControl.vcxproj">
+      <Project>{3a5bbad5-1c45-4f24-973c-dc63b5c0f8af}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\Engine\Zalla3D Scene Class\Zalla3D Scene Class.vcxproj">
+      <Project>{48125d58-8048-48f4-97c6-967c72096625}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\GlobalScript\GlobalScript.vcxproj">
+      <Project>{fc216d91-d7ae-44c9-be1f-86544b1ad594}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="..\MemoryManager\MemoryManager.vcxproj">
+      <Project>{b6bdd524-1dde-4a65-aed7-9ee4bc86a05d}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

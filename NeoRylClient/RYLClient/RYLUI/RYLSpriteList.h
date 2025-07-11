@@ -1,0 +1,174 @@
+//================================================================
+//
+//	Name : RYLSpriteList.h 
+//	Desc : RYL Sprite( Dib ) List
+//  Date : 2003. 12. 23
+//
+//=================================================================
+#ifndef __RYL_SPRITELIST_H__
+#define __RYL_SPRITELIST_H__
+
+#include <vector>
+#include "GMBase.h"
+
+class CGMImageDib ;
+class CRYLImage ;
+
+typedef struct __RYLSPRITEINFO
+{
+	CGMImageDib*		m_pImage ;
+	INT					m_iInstance ;
+} RYLSPRITEINFO, *LPSPRITEINFO ;
+
+namespace ERYLSPRITENAME
+{
+	enum SPRITENAME //HAYZOHAR ADD NEW GMI
+	{
+		RYL_MAINGUI_256x256 = 0,
+		RYL_MAINGUI02_256x256,
+		RYL_MAINGUI03_256x256,
+		RYL_MINIGUI_256x256,
+		RYL_COMPONENT01_256x256,
+		RYL_BUTTON_256x256,
+		RYL_INVEN_HUMAN01_256x256,
+		RYL_INVEN_AKHAN01_256x256,
+		RYL_INVEN_HUMAN02_256x256,
+		RYL_INVEN_HUMAN03_256x256,
+		RYL_SKILLSLOT_256x256,
+		RYL_STREET_STALL01_256x256,
+		RYL_STREET_STALL02_256x256,
+		RYL_STREET_STALL03_256x256,
+		RYL_QUESTSLOT_256x256,
+		RYL_BLACKSMITH_256x256,
+		RYL_CHATSMALL_256x256,
+		RYL_CHATLARGE_256x256,
+		RYL_RANKING01_256x256,
+		RYL_RANKING02_256x256,
+		RYL_RANKING03_256x256,
+		RYL_EXCHANGE_256x256,
+		RYL_GUILD_256x256,
+		RYL_LOGIN_256x256,
+		RYL_COMPONENT02_256x256,
+		RYL_STATUS_256x256,
+		RYL_NEWLOGIN_256x256,
+		
+        RYL_LOGO01,
+		RYL_LOGO02,
+		RYL_LOGO03,
+		RYL_LOGO04_08_12,
+		RYL_LOGO05,
+		RYL_LOGO06,
+		RYL_LOGO07,
+		RYL_LOGO09_10,
+		RYL_LOGO11,
+
+		RYL_LOGIN_MAIN,
+		//RYL_LOGIN_MAIN01,
+		//RYL_LOGIN_MAIN02,
+		//RYL_LOGIN_MAIN03,
+		//RYL_LOGIN_MAIN04_08_12,
+		//RYL_LOGIN_MAIN05,
+		//RYL_LOGIN_MAIN06,
+		//RYL_LOGIN_MAIN07,
+		//RYL_LOGIN_MAIN09_10,
+		//RYL_LOGIN_MAIN11,
+
+		// WORK_LIST 2.2 NationSelectScene 이름 수정
+
+		RYL_RACE01,
+	/*	RYL_RACE02,
+		RYL_RACE03,
+		RYL_RACE04_08_12,
+		RYL_RACE05,
+		RYL_RACE06,
+		RYL_RACE07,
+		RYL_RACE09_10,
+		RYL_RACE11,*/
+
+		// WORK_LIST 2.2 NationSelectScene 이름 수정
+		RYL_HUMAN_RACE01_01,
+		RYL_HUMAN_RACE01_02,
+		/*RYL_HUMAN_RACE02_01,
+		RYL_HUMAN_RACE02_02,
+		RYL_HUMAN_RACE02_03,*/
+		RYL_AKHAN_RACE01_01,
+		RYL_AKHAN_RACE01_02,
+		/*RYL_AKHAN_RACE02_01,
+		RYL_AKHAN_RACE02_02,
+		RYL_AKHAN_RACE02_03,*/
+
+		// WORK_LIST 2.3 계정 국적 변경 UI 추가
+		RYL_NATION_KARTERANT_256x256,
+		RYL_NATION_MERKADIA_256x256,
+		RYL_NATION_PIRATE_256x256,
+
+		RYL_MINIPARTY_256x256,
+
+        RYL_BATTLEGROUND_STATUS_256x256,
+        RYL_BATTLEGROUND_GAME_STATUS_256x256,
+        RYL_BATTLEGROUND_GAME_RESULT_256x128,
+        RYL_BATTLEGROUND_STONE_ICON_246x64,
+        RYL_STATUS_BAR_256x256,
+		RYL_LOHAN_256x256,
+
+		RYL_CHANNEL,
+		RYL_CAMP_KARTERANT,
+		RYL_CAMP_MERKADIA,
+		RYL_CAMP_THIRD,
+		RYL_CAMP_ATTACKED,
+		RYL_CAMP_SIMBOL1,
+		RYL_CAMP_SIMBOL2,
+		RYL_CAMP_SIMBOL3,
+		RYL_CAMP_SIMBOL4,
+
+		RYL_ALTERNATIVE_SKILL,
+
+		RYL_CAMP_SHOP01,
+		RYL_CAMP_SHOP02,
+		RYL_CAMP_SHOP03,
+
+		RYL_ZONE_LOADING01,
+		RYL_ZONE_LOADING02,
+		RYL_ZONE_LOADING03,
+		RYL_ZONE_LOADING04_08_12,
+		RYL_ZONE_LOADING05,
+		RYL_ZONE_LOADING06,
+		RYL_ZONE_LOADING07,
+		RYL_ZONE_LOADING09_10,
+		RYL_ZONE_LOADING11,
+	} ;
+} ;
+
+class CRYLSpriteList
+{
+private :
+	std::vector< LPSPRITEINFO >		m_vecSprite ;
+	RECT							m_rtDisableButton ;
+	RECT							m_rtNormalButton ;
+	RECT							m_rtUpButton ;
+	RECT							m_rtDownButton ;
+
+public :
+	CRYLSpriteList() ;
+	~CRYLSpriteList() ;
+
+	HRESULT			InitSprite() ;
+	HRESULT			AddSprite( LPCTSTR lpszFile, INT iInstance ) ;
+	HRESULT			DelSprite( INT iInstance ) ;
+	CGMImageDib*	FindSprite( INT iInstance ) ;
+	VOID			ClearVector() ;
+	CRYLImage*		GetImage( LPRECT lpRect, INT iInstance ) ;
+	VOID			CreateGMImage( INT iWidth, INT iHeight, CGMImageDib** ppImage ) ;
+
+	static HRESULT		CreateInstance() ;
+	static HRESULT		DeleteInstance() ;
+	static CRYLSpriteList*	s_pInstance ;
+	static CRYLSpriteList*	Instance()			{ return s_pInstance ; } ;
+
+	LPRECT	GetDefaultButtonDisableRect( INT iFontSize ) ;
+	LPRECT	GetDefaultButtonNormalRect( INT iFontSize ) ;
+	LPRECT	GetDefaultButtonUpRect( INT iFontSize ) ;
+	LPRECT	GetDefaultButtonDownRect( INT iFontSize ) ;
+} ;
+
+#endif //__RYL_SPRITELIST_H__

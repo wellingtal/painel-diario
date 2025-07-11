@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Creature Files">
+      <UniqueIdentifier>{f16294ca-1c1e-45a5-b1e0-6a6d8ddd305a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature Files\Creature Effect Files">
+      <UniqueIdentifier>{e6772d5c-058a-4853-beab-86f64cd2a536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature Common Files">
+      <UniqueIdentifier>{7aed39bc-386a-45a2-9cb2-7425fd71020b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature Manager Files">
+      <UniqueIdentifier>{fa13df36-776a-448f-9936-280b50406ebe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature Control Files">
+      <UniqueIdentifier>{8853dde1-0a12-4907-8cb5-ff31050aa058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature Control Files\Siege">
+      <UniqueIdentifier>{4bf65774-aea6-41a1-a1ad-05da2e78821c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Creature Control Files\Castle">
+      <UniqueIdentifier>{193e3faa-674b-461d-9d7e-7946ac6b7f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CameraControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputDevice.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputJoystick.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputKeyboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="InputMouse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLCreature.cpp">
+      <Filter>Creature Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLCreatureEffect.cpp">
+      <Filter>Creature Files\Creature Effect Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLDamageEffect.cpp">
+      <Filter>Creature Files\Creature Effect Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLCharacterDataManager.cpp">
+      <Filter>Creature Manager Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLCreatureManager.cpp">
+      <Filter>Creature Manager Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLCharacterControl.cpp">
+      <Filter>Creature Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLDropshipControl.cpp">
+      <Filter>Creature Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLObjectControl.cpp">
+      <Filter>Creature Control Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLLongAttackWeaponControl.cpp">
+      <Filter>Creature Control Files\Siege</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLShortAttackWeaponControl.cpp">
+      <Filter>Creature Control Files\Siege</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLLongDefenceWeaponControl.cpp">
+      <Filter>Creature Control Files\Castle</Filter>
+    </ClCompile>
+    <ClCompile Include="RYLShortDefenceWeaponControl.cpp">
+      <Filter>Creature Control Files\Castle</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CameraControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CreatureSize.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputDevice.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputJoystick.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputKeyboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputMouse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLCreature.h">
+      <Filter>Creature Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLCreatureEffect.h">
+      <Filter>Creature Files\Creature Effect Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLDamageEffect.h">
+      <Filter>Creature Files\Creature Effect Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLCreatureCommon.h">
+      <Filter>Creature Common Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLCharacterDataManager.h">
+      <Filter>Creature Manager Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLCreatureManager.h">
+      <Filter>Creature Manager Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLCharacterControl.h">
+      <Filter>Creature Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLDropshipControl.h">
+      <Filter>Creature Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLObjectControl.h">
+      <Filter>Creature Control Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLLongAttackWeaponControl.h">
+      <Filter>Creature Control Files\Siege</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLShortAttackWeaponControl.h">
+      <Filter>Creature Control Files\Siege</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLLongDefenceWeaponControl.h">
+      <Filter>Creature Control Files\Castle</Filter>
+    </ClInclude>
+    <ClInclude Include="RYLShortDefenceWeaponControl.h">
+      <Filter>Creature Control Files\Castle</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

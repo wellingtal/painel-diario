@@ -1,0 +1,15 @@
+void SetNPC(int, int, string, string);
+void SetPosition(int, float, float, float, float);
+void AddWords(int, string);
+void AddDialog(int, int, int, string);
+void AddItem(int, int, int, int);
+void AddSkillBook(int, int, int, int, int, int);
+
+SetNPC(0x40000000, 11, "NPC_W01.GCMDS", "레일리아");
+SetPosition(0x40000000, 4.020, 2737.31, 23.98, 608.39);
+AddWords(0x40000000, "어서 오세요. 무엇이 필요하신가요?");
+AddDialog(0x40000000, 1, 0, "<a href = 2, window = false>학정이</a> 형 바보");
+AddDialog(0x40000000, 2, 0, "환경이 형 바보");
+AddDialog(0x40000000, 3, 0, "우리 모두 바보");
+AddItem(0x40000000, 201, 0, 0);
+AddSkillBook(0x40000000, 3729, 0x8105, 0, 0, 0);
